@@ -1,0 +1,1910 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!--Notes :-->
+	<!-- - If the text is marked ' Please replace with the symbol &apos; and add at the beginning and end of the sentence "
+        Example: Let's get started! >> "Let&apos;s get started!"  -->
+	<!-- - If the text is marked & Please replace with the symbol &amp; 
+        Example. Movies & Animation >> Movies &amp; Animation   -->
+
+
+
+	<!--supportsRtl-->
+	<bool name="Is_arabic">true</bool>
+	<!--===============================================================-->
+	<!--Range seeker-->
+	<string name="demo_min_label">מינימום</string>
+	<string name="demo_max_label">מקסימום</string>
+	<!--===============================================================-->
+
+	<!--EXO PLAYER NOT FOR TRANCALCTE-->
+	<string name="selection_disabled">Disabled</string>
+	<string name="selection_default">Default</string>
+	<string name="unexpected_intent_action">Unexpected intent action: </string>
+	<string name="enable_random_adaptation">Enable random adaptation</string>
+	<string name="error_drm_not_supported">Protected content not supported on API levels below 18</string>
+	<string name="error_drm_unsupported_scheme">This device does not support the required DRM scheme</string>
+	<string name="error_drm_unknown">An unknown DRM error occurred</string>
+	<string name="error_no_decoder">This device does not provide a decoder for </string>
+	<string name="error_no_secure_decoder">This device does not provide a secure decoder for </string>
+	<string name="error_querying_decoders">Unable to query device decoders</string>
+	<string name="error_instantiating_decoder">Unable to instantiate decoder </string>
+	<string name="error_unsupported_video">Media includes video tracks, but none are playable by this device</string>
+	<string name="error_unsupported_audio">Media includes audio tracks, but none are playable by this device</string>
+	<string name="storage_permission_denied">Permission to access storage was denied</string>
+	<string name="sample_list_load_error">One or more sample lists failed to load</string>
+	<string name="ima_not_loaded">Playing sample without ads, as the IMA extension was not loaded</string>
+	<string name="Lbl_Download_faileds">Download failed.</string>
+	<!--===============================================================-->
+
+	<!--most used-->
+	<string name="video">וידאו</string>
+	<string name="audio">אודיו</string>
+	<string name="image">תמונה</string>
+	<string name="text">טקסט</string>
+	<string name="retry">נסה שנית</string>
+	<string name="Terms_of_service">תנאי שימוש</string>
+	<string name="Privacy_Policy">מדיניות פרטיות</string>
+	<string name="Lbl_Username">שם משתמש</string>
+	<string name="Lbl_Email">דואר אלקטרוני</string>
+	<string name="Lbl_Password">סיסמא</string>
+	<string name="Lbl_Login">התחבר</string>
+	<string name="Lbl_Register">הרשם</string>
+	<string name="Lbl_Empty">ריק</string>
+	<string name="Lbl_Loading">טוען</string>
+	<string name="Lbl_Comment">תגובה</string>
+	<string name="Lbl_Videos">סירטונים</string>
+	<string name="Lbl_Views">צפיות</string>
+	<string name="Lbl_aboutMe">אודותיי</string>
+	<string name="Lbl_About">אודות</string>
+	<string name="Lbl_Error">שגיאה</string>
+	<string name="Lbl_Ok">בסדר</string>
+	<string name="Lbl_Security">אבטחה</string>
+	<string name="Lbl_Deleted">נמחק</string>
+	<string name="Lbl_Delete">מחיקה</string>
+	<string name="Lbl_Submit">שלח</string>
+	<string name="Lbl_Cancel">ביטול</string>
+	<string name="Lbl_Yes">כן</string>
+	<string name="Lbl_No">לא</string>
+	<string name="Lbl_Warning">אזהרה</string>
+	<string name="Lbl_Changed">השתנה</string>
+	<string name="Lbl_Crop">חיתוך</string>
+	<string name="Lbl_Report">דווח</string>
+	<string name="Lbl_Quality">איכות</string>
+	<string name="Lbl_Help_feedback">עזרה &amp; משוב</string>
+	<string name="Lbl_Make_video_offline">צור וידאו במצב לא מקוון</string>
+	<string name="Lbl_Share">שתף</string>
+	<string name="Lbl_InviteSMSText_1">היי בוא ניפגש</string>
+	<string name="Lbl_InviteSMSText_2">עבור הטלפון החכם שלך</string>
+	<string name="Lbl_Success">הצלחה</string>
+	<string name="Lbl_Offline_Mode">מצב לא מקוון</string>
+	<string name="Lbl_Cover">מעטפת</string>
+	<string name="Lbl_Avatar">תמונת פרופיל</string>
+	<string name="Lbl_Close">סגור</string>
+	<string name="Lbl_With">עם</string>
+	<string name="Lbl_At">ב</string>
+	<string name="Lbl_SelectPictures">בחר תמונות</string>
+	<string name="Lbl_SelectImage">בחר תמונה</string>
+	<string name="Lbl_SelectFile">בחר קובץ</string>
+	<string name="Lbl_SelectGif">בחר Gif</string>
+	<string name="Lbl_Unknown">לא ידוע</string>
+	<string name="Lbl_ReadMore">קרא עוד</string>
+	<string name="Lbl_ReadLess">קרא פחות</string>
+	<string name="Lbl_Description">תיאור</string>
+	<string name="Lbl_Lets_get_started">"בוא נתחיל!"</string>
+	<string name="Lbl_Published_on">פורסם ב</string>
+	<string name="Lbl_I_agree_to_the">אני מסכים ל</string>
+	<string name="Lbl_Image_file_creation_failed">יצירת קובץ התמונה נכשלה</string>
+	<string name="Lbl_Please_write_your_email">אנא כתוב את המייל שלך</string>
+	<string name="Lbl_Last_seen">נראה לאחרונה</string>
+	<string name="Lbl_Create_Account">צור חשבון</string>
+	<string name="Lbl_SignUp">הרשם</string>
+	<string name="Lbl_SignIn">התחבר</string>
+	<!--===============================================================-->
+
+	<!-- Password-->
+	<string name="Lbl_ConfirmPassword">אשר סיסמה</string>
+	<string name="Lbl_Forget_password">שכחת את הסיסמא</string>
+	<string name="Lbl_Forgot_your_password">שכחת ססמא</string>
+	<string name="Lbl_Forgot_your_password_DontWorry">"אל תדאג הקלד את האימייל שלך כאן ואנו נשחזר אותו עבורך."</string>
+	<string name="Lbl_Change_Password">שנה סיסמא</string>
+	<string name="Lbl_Current_Password">סיסמה נוכחית</string>
+	<string name="Lbl_New_Password">סיסמה חדשה</string>
+	<string name="Lbl_Repeat_password">חזור על הסיסמה</string>
+	<string name="Lbl_Your_password_dont_match">הסיסמה שלך לא תואמת</string>
+	<string name="Lbl_Enter_Password">הזן את הסיסמה שלך כאן</string>
+	<string name="Lbl_Change_your_password">שנה את סיסמתך</string>
+	<string name="Lbl_If_you_forgot_your_password">
+		אם שכחת את הסיסמה שלך, תוכל לאפס אותה מ <font color='#3da9ff'>כאן.</font>
+	</string>
+
+	<!--===============================================================-->
+
+	<!--Profile-->
+<string name="Lbl_DefaultAbout">היי, אני משתמש ב</string>
+<string name="Lbl_CopeLinkToProfile">העתק קישור לפרופיל</string>
+<string name="Lbl_Followers">עוקבים</string>
+<string name="Lbl_Following">במעקב</string>
+<string name="Lbl_Follow">עקוב אחרי</string>
+<string name="Lbl_Friends">חברים</string>
+<string name="Lbl_Request">מבוקשות</string>
+<string name="Lbl_AddFriends">הוסף חברים</string>
+<string name="Lbl_People_Following">אנשים עוקבים אחרי</string>
+<string name="Lbl_People_Followers">עוקבים של אנשים</string>
+<string name="Lbl_Update_DataProfile">עדכן את הפרופיל שלי</string>
+<string name="Lbl_First_Name">שם פרטי</string>
+<string name="Lbl_Last_Name">שם משפחה</string>
+<string name="Lbl_Mobile">נייד</string>
+<string name="Lbl_website">אתר</string>
+<string name="Lbl_Work_Place">מקום עבודה</string>
+<string name="Lbl_School">בית ספר</string>
+<string name="Lbl_Photos">תמונות</string>
+<string name="Lbl_View_All_Liked_Pages">הצג דפי &apos;אהבתי&apos; לפי משתמש</string>
+<string name="Lbl_Birthday">יום הולדת</string>
+	<!--===============================================================-->
+
+	<!--Social Links-->
+<string name="Lbl_Facebook">פייסבוק</string>
+<string name="Lbl_Twitter">טוויטר</string>
+<string name="Lbl_GooglePlus">Google</string>
+<string name="Lbl_Vk">Vkontakte</string>
+<string name="Lbl_Linkedin">Linkedin</string>
+<string name="Lbl_Instagram">אינסטגרם</string>
+<string name="Lbl_YouTube">YouTube</string>
+	<!--===============================================================-->
+
+	<!--WalkTroutPage-->
+<string name="Lbl_Title_page1">הגדר את המיקום שלך</string>
+<string name="Lbl_Description_page1">הגדר את המיקום שלך כדי שנוכל לומר לך היכן נמצאים האנשים המעניינים הקרובים ביותר, גלה חברים בקרבת מקום.</string>
+<string name="Lbl_Title_page2">צור קבוצות</string>
+<string name="Lbl_Description_page2">משעמם לך? התחל וצור קבוצה חדשה והוסף את החברים ואנשי הקשר שלך ושתף את כל הפוסטים שלך ממקום אחד.</string>
+<string name="Lbl_Title_page3">פרסם קבצי מולטימדיה</string>
+<string name="Lbl_Description_page3">פרסם את כל סוגי התמונות &amp; מדבקות &amp; סרטונים &amp; קבצי מסמכים בפיד החדשות שלך.</string>
+<string name="Lbl_Title_page4">גישה להקלטה</string>
+<string name="Lbl_Description_page4">תן לנו את ההרשאה לאפשר לאפליקציה שלך להשאיר הערות קוליות ושירים מוקלטים בתגובות שלך בעדכון החדשות.</string>
+	<!--===============================================================-->
+
+	<!-- Add Post-->
+<string name="Lbl_AddPost">הוסף פוסט</string>
+<string name="Lbl_Post">פוסט</string>
+<string name="Lbl_AddToPost">הוסף לפוסט</string>
+<string name="Lbl_ImageGallery">גלריית תמונות</string>
+<string name="Lbl_VideoGallery">גלריית וידאו</string>
+<string name="Lbl_MentionContact">אזכר איש קשר</string>
+<string name="Lbl_Location">מיקום</string>
+<string name="Lbl_Place">מקום</string>
+<string name="Lbl_Feeling">תחושה</string>
+<string name="Lbl_Camera">מצלמה</string>
+<string name="Lbl_Gif">Gif</string>
+<string name="Lbl_File">קובץ</string>
+<string name="Lbl_Music">מוזיקה</string>
+<string name="Lbl_Whats_Going_On">"מה קורה? #האשתג.. @איזכור."</string>
+<string name="Lbl_Gallery">גלריה</string>
+<string name="Lbl_Friend">תייג חברים</string>
+<string name="Lbl_PostLive">חי</string>
+	<!--===============================================================-->
+
+	<!--Type Activity-->
+<string name="Lbl_ListeningTo">מאזין ל</string>
+<string name="Lbl_Listening">האזנה</string>
+<string name="Lbl_Playing">משחק</string>
+<string name="Lbl_Watching">צופה</string>
+<string name="Lbl_Traveling">נסיעה</string>
+	<!--===============================================================-->
+
+	<!--Feelings-->
+<string name="Lbl_Sad">עצוב</string>
+<string name="Lbl_Angry">כועס</string>
+<string name="Lbl_Funny">מצחיק</string>
+<string name="Lbl_Loved">אהוב</string>
+<string name="Lbl_Cool">מגניב</string>
+<string name="Lbl_Happy">שמח</string>
+<string name="Lbl_Tired">עייף</string>
+<string name="Lbl_Sleepy">ישנוני</string>
+<string name="Lbl_Expressionless">ללא הבעה</string>
+<string name="Lbl_Confused">מבולבל</string>
+<string name="Lbl_Shocked">מזועזע</string>
+<string name="Lbl_VerySad">עצוב מאוד</string>
+<string name="Lbl_Blessed">מבורך</string>
+<string name="Lbl_Bored">משועמם</string>
+<string name="Lbl_Broken">שבור</string>
+<string name="Lbl_Lovely">מקסים</string>
+<string name="Lbl_Hot">חם</string>
+	<!--===============================================================-->
+
+	<!--Location-->
+<string name="Lbl_Finding_your_Location">מוצא את המיקום שלך...</string>
+<string name="Lbl_SearchForPlace">חפש מקום</string>
+<string name="Lbl_EventPlace">מקום האירוע</string>
+	<!--===============================================================-->
+
+	<!--Mentions-->
+<string name="Lbl_MentionsFriend">אזכר חבר</string>
+	<!--===============================================================-->
+
+	<!--User contacts-->
+<string name="Lbl_Empty_usercontacts">אין אנשי קשר</string>
+<string name="Lbl_Start_usercontacts">התחל להוסיף אנשי קשר חדשים !</string>
+	<!--===============================================================-->
+
+	<!--Albums-->
+<string name="Lbl_MyImages">התמונות שלי</string>
+<string name="Lbl_YourImages">תמונות משתמש</string>
+<string name="Lbl_Empty_Albums">ללא תמונה !!</string>
+<string name="Lbl_Start_Albums">התחל להעלות תמונות משלך</string>
+	<!--===============================================================-->
+
+	<!--Blocked Users-->
+<string name="Lbl_Empty_BlockedUser">ללא משתמשים חסומים</string>
+<string name="Lbl_BlockedUsers">משתמשים חסומים</string>
+<string name="Lbl_Blocked_successfully">נחסם בהצלחה</string>
+<string name="Lbl_Unblock_successfully">בטל חסימה בהצלחה</string>
+	<!--===============================================================-->
+
+	<!--Story-->
+<string name="Lbl_Addnewstory">הוסף סיפור חדש</string>
+<string name="Lbl_Stories">סיפורים</string>
+<string name="Lbl_Story">סיפור</string>
+	<!--===============================================================-->
+
+	<!--Edit post-->
+<string name="Lbl_EditPost">ערוך פוסט</string>
+<string name="Lbl_PostPrivacy">פרטיות פוסט</string>
+	<!--===============================================================-->
+
+<!--Post Data-->
+<string name="Lbl_PostLikes">פרסם לייקים</string>
+<string name="Lbl_PostWonders">פוסט פלאים</string>
+<string name="Lbl_Empty_PostLikes">אין עדיין לייקים</string>
+<string name="Lbl_Empty_PostWonders">אין פלאים עדיין</string>
+<!--============================================ ==================-->
+
+<!--סרטים-->
+<string name="Lbl_Empty_Movies">סרטונים ריקים</string>
+<string name="Lbl_Start_Movies">"אין לך סרטון"</string>
+<string name="Lbl_Stars">כוכבים</string>
+<string name="Lbl_Tag">תג</string>
+<string name="Lbl_Delete_video">מחק סרטון</string>
+<string name="Lbl_Min">מינימום</string>
+	<!--===============================================================-->
+
+	<!--Events-->
+<string name="Lbl_Create_Events">צור אירוע</string>
+<string name="Lbl_Empty_Events">ללא אירועים</string>
+<string name="Lbl_Start_Events">אין אירועים לצפייה</string>
+<string name="Lbl_GoingPeople">אנשים הולכים</string>
+<string name="Lbl_InterestedPeople">אנשים מתעניינים</string>
+<string name="Lbl_Going">משתתף</string>
+<string name="Lbl_Go">עבור</string>
+<string name="Lbl_Interested">מעוניין</string>
+<string name="Lbl_Start_Date">תאריך התחלה</string>
+<string name="Lbl_End_Date">תאריך סיום</string>
+<string name="Lbl_Event_Name">שם האירוע</string>
+<string name="Lbl_ViewEvent">הצג את האירוע</string>
+<!--============================================ ==================-->
+
+<!--Pages-->
+<string name="Lbl_ExplorePage">חקר דפים</string>
+<string name="Lbl_Create_New_Page">צור דף חדש</string>
+<string name="Lbl_New_Page">דף חדש</string>
+<string name="Lbl_Empty_LikedPages">ללא דפי &apos;אהבתי&apos;</string>
+<string name="Lbl_Start_LikedPages">התחל לצפות או צור דף משלך</string>
+<string name="Lbl_Update_Data_Page">עדכון דף נתונים</string>
+<string name="Lbl_Describe_Page">תאר את הדף שלך</string>
+<string name="Lbl_Describe_Description_Page">ספר לחברים פוטנציאליים מה עומדים הדפים שלך כדי לעזור להם לדעת אם זה רלוונטי עבורם.</string>
+<string name="Lbl_Page_title">כותרת העמוד</string>
+<string name="Lbl_Page_URL">כתובת אתר של דף</string>
+<string name="Lbl_Page_About">מידע על דף</string>
+<string name="Lbl_Manage_Pages">נהל דפים</string>
+<string name="Lbl_Your_Pages">הדפים שלך</string>
+<string name="Lbl_Liked_Pages">דפי &apos;אהבתי&apos;</string>
+	<!--===============================================================-->
+
+	<!--Group-->
+<string name="Lbl_ExploreGroup">חקור קבוצות</string>
+<string name="Lbl_New_Group">קבוצה חדשה</string>
+<string name="Lbl_Create_New_Group">צור קבוצה חדשה</string>
+<string name="Lbl_Empty_JoinedGroup">עדיין לא הצטרפו לקבוצות</string>
+<string name="Lbl_Start_JoinedGroup">הצטרף או התחל קבוצה משלך</string>
+<string name="Lbl_Update_DataGroup">עדכן נתוני קבוצה</string>
+<string name="Lbl_Describe_Group">תאר את הקבוצה שלך</string>
+<string name="Lbl_Describe_Description_Group">ספר לחברים פוטנציאליים מה עומד בקבוצות שלך כדי לעזור להם לדעת אם זה רלוונטי עבורם.</string>
+<string name="Lbl_Group_title">כותרת קבוצה</string>
+<string name="Lbl_Group_URL">כתובת אתר של קבוצה</string>
+<string name="Lbl_Group_About">מידע על הקבוצה</string>
+<string name="Lbl_Update_Data_Group">עדכן קבוצת נתונים</string>
+<string name="Lbl_Manage_Groups">הקבוצות שלך</string>
+<string name="Lbl_Joined_Groups">הצטרפו לקבוצות</string>
+<!--============================================ ==================-->
+
+<!--Notification-->
+<string name="Lbl_Empty_notifications">עדיין אין התראות</string>
+<!--============================================ ==================-->
+
+<!--Search-->
+<string name="Lbl_Empty_search">לא נמצאו תוצאות</string>
+<string name="Lbl_Start_search">התחל חיפוש עם מילה חדשה</string>
+<!--============================================ ==================-->
+
+<!--Search Filter-->
+<string name="Lbl_Search_Filter">מסנן חיפוש</string>
+<string name="Lbl_All">הכל</string>
+<string name="Lbl_Gender">מגדר</string>
+<string name="Lbl_Profile_Picture">תמונת פרופיל</string>
+<!--============================================ ==================-->
+
+<!--שוק-->
+<string name="Lbl_Empty_Market">ללא מוצרים</string>
+<string name="Lbl_Start_Market">התחל להוסיף מוצר משלך</string>
+<string name="Lbl_CreateNewProduct">צור מוצר חדש</string>
+<string name="Lbl_NewProduct">מוצר חדש</string>
+<string name="Lbl_Describe_Product">מכור מוצר חדש</string>
+<string name="Lbl_Describe_Description_Product">תוכל לרשום מוצרים למכירה מכלי הוסף מוצר.</string>
+<string name="Lbl_Product_name">שם המוצר</string>
+<string name="Lbl_Product_price">מחיר המוצר</string>
+<string name="Lbl_Product_Location">מיקום המוצר</string>
+<string name="Lbl_Product_description">תיאור המוצר</string>
+<string name="Lbl_In_Stock">במלאי</string>
+<!--============================================ ==================-->
+
+<!--מאמר-->
+<string name="Lbl_ExploreArticle">חקר מאמרים</string>
+<string name="Lbl_Empty_Article">ללא מאמרים</string>
+<string name="Lbl_Start_Article">אין מאמרים זמינים</string>
+<!--============================================ ==================-->
+
+<!--חדשות-->
+<string name="Lbl_Empty_News">מצב לא מקוון</string>
+<string name="Lbl_Start_News">דף לא נמצא</string>
+	<!--===============================================================-->
+
+	<!--Friend Request-->
+<string name="Lbl_FriendRequest">בקשות חברים</string>
+<string name="Lbl_Empty_FriendRequest">אין לך בקשות</string>
+<string name="Lbl_View_All_FriendRequest">הצג את כל בקשות החברים</string>
+<!--============================================ ==================-->
+
+<!--Trending-->
+<string name="Lbl_Pro_Users">משתמשי מקצוענים</string>
+<string name="Lbl_Pro_Pages">Pro Pages</string>
+<!--============================================ ==================-->
+
+<!--פעילויות אחרונות-->
+<string name="Lbl_LastActivities">פעילויות אחרונות</string>
+<string name="Lbl_CommentedOn">הגיב על</string>
+<string name="Lbl_ReactedTo">הגיב ל</string>
+<string name="Lbl_StartedFollowing">התחיל לעקוב אחרי</string>
+<string name="Lbl_BecomeFriendsWith">התיידד עם</string>
+<string name="Lbl_IsFollowing">עוקב אחר</string>
+<string name="Lbl_wondered">תהה</string>
+<string name="Lbl_disliked">לא אהבתי</string>
+<string name="Lbl_shared">משותף</string>
+<!--============================================ ==================-->
+
+<!--זמן-->
+<string name="Lbl_hours">לפני שעות</string>
+<string name="Lbl_days">לפני ימים</string>
+<string name="Lbl_month">לפני חודש</string>
+<string name="Lbl_minutes">לפני דקות</string>
+<string name="Lbl_seconds">לפני שניות</string>
+<string name="Lbl_year">לפני שנה</string>
+
+<string name="Lbl_about_minute">לפני כדקה</string>
+<string name="Lbl_about_hour">לפני כשעה</string>
+<string name="Lbl_yesterday">אתמול</string>
+<string name="Lbl_about_month">לפני כחודש</string>
+<string name="Lbl_about_year">לפני כשנה</string>
+<!--============================================ ==================-->
+
+<!--NearBy-->
+<string name="Lbl_NearBy">קרוב</string>
+<string name="Lbl_Start_NearBy">אופס, נראה שאף אחד לא קרוב אליך</string>
+<string name="Lbl_turn_your_GPS">אנא סובב את ה-GPS שלך לתוצאות טובות יותר</string>
+<string name="Lbl_distance_away">מרחק</string>
+<string name="Lbl_km">ק"מ</string>
+	<!--===============================================================-->
+
+	<!--Add Post-->
+<string name="Lbl_YouCannot_PostanEmptyPost">אינך יכול לפרסם פוסט ריק</string>
+<!--============================================ ==================-->
+
+<!--קטגוריות-->
+<string name="Lbl_Category">קטגוריה</string>
+<string name="Lbl_SelectCategories">בחר קטגוריה</string>
+
+<!--============================================ ==================-->
+
+<!--לחצן-->
+<string name="Btn_Send">שלח</string>
+<string name="Btn_DeleteAccount">מחק חשבון</string>
+<string name="Btn_UnBlock">בטל חסימה</string>
+<string name="Btn_SearchRandom">חיפוש אקראי</string>
+<string name="Btn_reloadPage">טען מחדש את הדף</string>
+<string name="Btn_Skip">דלג</string>
+<string name="Btn_Unlike">לא אהבתי</string>
+<string name="Btn_Like">אהבתי</string>
+<string name="Btn_Liked">אהבתי</string>
+<string name="Btn_Dislike">לא אהבתי</string>
+<string name="Btn_Likes">אהבתי</string>
+<string name="Btn_Contact">צור קשר</string>
+<string name="Btn_Create_Events">צור אירוע משלך</string>
+<string name="Btn_AddProduct">הוסף מוצר</string>
+<string name="Btn_Joined">הצטרף</string>
+<string name="Btn_Join_Group">הצטרף לקבוצה</string>
+<!--============================================ ==================-->
+
+<!--תפריט-->
+<string name="Lbl_Add">הוסף</string>
+<string name="Lbl_Create">צור</string>
+<string name="Lbl_Update">עדכון</string>
+<string name="Lbl_Block">חסום</string>
+<string name="Lbl_Edit">ערוך</string>
+<string name="Lbl_Save">שמור</string>
+<string name="Lbl_Invite_Friends">הזמן חברים</string>
+<string name="Lbl_Refresh">רענן</string>
+<string name="Lbl_Blocked_User_List">רשימת משתמשים חסומים</string>
+<string name="Lbl_Settings">הגדרות</string>
+<string name="Lbl_CopeLink">העתק קישור</string>
+<string name="Lbl_ViewPrivacy">הצג קיצורי פרטיות</string>
+<string name="Lbl_SettingsAccount">הגדרות חשבון</string>
+<!--============================================ ==================-->
+
+<!--RadioButton-->
+<string name="Radio_Male">זכר</string>
+<string name="Radio_Female">נקבה</string>
+<string name="Radio_Public">ציבורי</string>
+<string name="Radio_Private">פרטי</string>
+<string name="Radio_New">חדש</string>
+<string name="Radio_Used">משומש</string>
+	<!--===============================================================-->
+
+	<!--Toast && Messages-->
+<string name="Lbl_CheckYourInternetConnection">אנא בדוק את חיבור האינטרנט שלך</string>
+<string name="Lbl_You_can_not_access_your_disaproval">אינך יכול לגשת לאי אישור התנאים וההגבלות</string>
+<string name="Lbl_Sent_successfully">נשלח בהצלחה.</string>
+<string name="Lbl_Sent_successfully_followed">עקבת אחרי המשתמש בהצלחה.</string>
+<string name="Lbl_Sent_successfully_FriendRequest">בקשת החברות נשלחה בהצלחה.</string>
+<string name="Lbl_Sent_successfully_Unfollowed">לא המעקב אחר המשתמש.</string>
+<string name="Lbl_Sent_successfully_FriendRequestCancelled">בקשת החברות בוטלה.</string>
+<string name="Lbl_Copied">הועתק</string>
+<string name="Lbl_VerificationFailed">האימות נכשל</string>
+<string name="Lbl_something_went_wrong">בדוק את האישורים שלך משהו השתבש</string>
+<string name="Lbl_Error_Login">כניסה לא נכונה, שגיאה בשם משתמש או סיסמה</string>
+<string name="Lbl_Error_Register_password">הרשמה לא נכונה, סיסמת שגיאה</string>
+<string name="Lbl_The_name_can_not_be_blank">השם לא יכול להיות ריק</string>
+<string name="Lbl_Your_account_was_successfully_deleted">החשבון שלך נמחק בהצלחה</string>
+<string name="Lbl_Closed_App">האפליקציה תיסגר</string>
+<string name="Lbl_You_can_not_Download_video">אינך יכול להוריד סוג זה של סרטון</string>
+<string name="Lbl_Permission_is_denied">"מצטערים: אינך יכול להמשיך בפעולה שלך אם אינך מאפשר"</string>
+<string name="Lbl_received_your_report">תודה, קיבלנו את הדוח שלך!</string>
+<string name="Lbl_Image_changed_successfully">התמונה שונתה בהצלחה</string>
+<string name="Lbl_Uploads_Image">התמונה שלך תעודכן בקרוב</string>
+<string name="Lbl_Post_Added">פוסט נוסף</string>
+<string name="Lbl_Post_Failed">הפוסט נכשל</string>
+<string name="Lbl_Google_Not_Available">שירותי Google Play אינם זמינים.</string>
+<string name="Lbl_Google_Exception">חריג שירותי Google Play.</string>
+<string name="Lbl_Camera_Not_Available">האם המצלמה אינה זמינה.</string>
+<string name="Lbl_Failed_to_load">טעינה נכשלה</string>
+<string name="Lbl_NotEnoughPermission">אין מספיק הרשאות</string>
+<string name="Lbl_YourGroupWasUpdated">הקבוצה שלך עודכנה</string>
+<string name="Lbl_YourPageWasUpdated">הדף שלך עודכן</string>
+<string name="Lbl_Email_Has_Been_Send">אימייל נשלח</string>
+<string name="Lbl_Application_Restart">היישום יופעל מחדש</string>
+<string name="Lbl_ImageSaved">תמונה נשמרה בגלריה</string>
+<string name="Lbl_Null_Data_User">משתמש נתונים אפס</string>
+<string name="Lbl_Loading_From_Server">טעינה מהשרת</string>
+<string name="Lbl_You_will_be_logged">תנתק עכשיו, נתראה מאוחר יותר</string>
+<string name="Lbl_No_have_more_users">אין משתמשים נוספים</string>
+	<!--===============================================================-->
+
+	<!--Error-->
+<string name="Lbl_Error_Code">קוד שגיאה</string>
+<string name="Lbl_Please_check_your_details">שגיאה, אנא בדוק את הפרטים שלך</string>
+<string name="Lbl_Please_enter_your_data">שגיאה, אנא הזן את הנתונים שלך</string>
+<string name="Lbl_IsEmailValid">שגיאה, אנא כתוב את כתובת הדוא"ל המלאה שלך</string>
+<string name="Lbl_Please_confirm_your_password">שגיאה, אנא אשר את הסיסמה שלך</string>
+<string name="Lbl_Please_enter_name">שגיאה, אנא הזן שם</string>
+<string name="Lbl_Please_enter_title">שגיאה, אנא הזן כותרת</string>
+<string name="Lbl_Please_enter_about">שגיאה, אנא הזן אודות</string>
+<string name="Lbl_Please_enter_Description">שגיאה, אנא הזן תיאור</string>
+<string name="Lbl_Please_select_category">שגיאה, אנא בחר קטגוריה</string>
+<string name="Lbl_Please_select_start_date">שגיאה, אנא בחר תאריך התחלה</string>
+<string name="Lbl_Please_select_end_date">שגיאה, אנא בחר תאריך סיום</string>
+<string name="Lbl_Please_select_Location">שגיאה, אנא הזן מיקום</string>
+<string name="Lbl_Please_select_start_time">שגיאה, אנא בחר שעת התחלה</string>
+<string name="Lbl_Please_select_end_time">שגיאה, אנא בחר שעת סיום</string>
+<string name="Lbl_Please_select_Image">שגיאה, אנא בחר תמונה</string>
+<string name="Lbl_Please_enter_price">שגיאה, אנא הזן מחיר</string>
+<string name="Lbl_Error_path_image">תמונת נתיב שגיאה</string>
+<string name="Lbl_Error_DisplayAddress">לא ניתן לקבוע את הכתובת. נסה שוב בעוד מספר דקות.</string>
+<string name="Lbl_Error_LocationChanged">לא ניתן לקבוע את מיקומך. נסה שוב בעוד זמן קצר.</string>
+<!--============================================ ==================-->
+
+<!--התחבר && הרשמה-->
+<string name="Lbl_ErrorLogin_3">שם משתמש או סיסמה שגויים</string>
+<string name="Lbl_ErrorLogin_4">שם המשתמש לא נמצא</string>
+<string name="Lbl_ErrorLogin_5">הסיסמה שגויה</string>
+
+<string name="Lbl_ErrorRegister_3">נמצאה שגיאה, אנא נסה שוב מאוחר יותר</string>
+<string name="Lbl_ErrorRegister_4">שם המשתמש כבר תפוס</string>
+<string name="Lbl_ErrorRegister_5">תווי שם משתמש לא חוקיים, אנא בחר שם משתמש אחר</string>
+<string name="Lbl_ErrorRegister_6">שם המשתמש חייב להיות בין 5 ל-32 אותיות</string>
+<string name="Lbl_ErrorRegister_7">דוא"ל כבר נלקח</string>
+<string name="Lbl_ErrorRegister_8">דוא"ל לא חוקי</string>
+<string name="Lbl_ErrorRegister_9">הסיסמה קצרה מדי</string>
+<string name="Lbl_ErrorRegister_10">"הסיסמאות אינן תואמות"</string>
+<string name="Lbl_ErrorRegister_11">נמצאה שגיאה בעת שליחת דוא"ל האימות, אנא נסה שוב מאוחר יותר</string>
+	<!--===============================================================-->
+
+	<!--AlertDialog-->
+<string name="Lbl_Are_you_logout">האם אתה בטוח שהלכת להתנתק?</string>
+<string name="Lbl_Please_wait">נא המתן...</string>
+<string name="Lbl_Do_You_want_to_remove_video">האם ברצונך להסיר את הסרטון מהמטמון</string>
+<string name="Lbl_Comment_Hint_Listening">למה אתה מאזין?</string>
+<string name="Lbl_Comment_Hint_Playing">מה אתה מנגן?</string>
+<string name="Lbl_Comment_Hint_Watching">במה אתה צופה?</string>
+<string name="Lbl_Comment_Hint_Traveling">לאן אתה נוסע?</string>
+<string name="Lbl_What_Are_You_Doing">מה אתה עושה?</string>
+<string name="Lbl_Enter_your_link">הזן את הקישור שלך</string>
+<string name="Lbl_Title_Back">האם אתה בטוח שתצא?</string>
+<string name="Lbl_Content_Back">הקלט המלא יימחק אם תצא או שתוכל להמשיך לערוך.</string>
+<string name="Lbl_PositiveText_Back">מחק פוסט</string>
+<string name="Lbl_NegativeText_Back">המשך בעריכה</string>
+<string name="Lbl_Title_Location">העמדה שלי</string>
+<string name="Lbl_Snippet_Location">"זהו המיקום של המכשיר שלי"</string>
+<string name="Lbl_Title_DeletePost">מחק פוסט</string>
+<string name="Lbl_Content_DeletePost">האם תרצה למחוק את הפוסט הזה</string>
+<string name="Lbl_leave_comment">השאירו תגובה</string>
+<string name="Lbl_Write_comment">כתוב תגובה...</string>
+<string name="Lbl_No_more_users">אין עוד משתמשים להציג</string>
+<!--============================================ ==================-->
+
+<!--Fragment-->
+<string name="Lbl_Library">ספרייה</string>
+<string name="Lbl_Notifications">הודעות</string>
+<string name="Lbl_Trending">פופולרי</string>
+<string name="Lbl_Search">חיפוש</string>
+<string name="Lbl_Activity">פעילות</string>
+<string name="Lbl_More">עוד</string>
+<string name="Lbl_Market">שוק</string>
+<string name="Lbl_MyProducts">המוצרים שלי</string>
+<string name="Lbl_All_Events">כל האירועים</string>
+<string name="Lbl_My_Events">האירועים שלי</string>
+<string name="Lbl_Users">משתמשים</string>
+<string name="Lbl_Pages">דפים</string>
+<string name="Lbl_Groups">קבוצות</string>
+<string name="Lbl_News_Feed">עדכון חדשות</string>
+	<!--===============================================================-->
+
+	<!--Page-->
+<string name="Lbl_MyProfile">הפרופיל שלי</string>
+<string name="Lbl_Messages">הודעות</string>
+<string name="Lbl_Contacts">אנשי קשר</string>
+<string name="Lbl_Albums">אלבומים</string>
+<string name="Lbl_Saved_Posts">פוסטים שמורים</string>
+<string name="Lbl_Blogs">בלוגים</string>
+<string name="Lbl_Marketplace">Market Place</string>
+<string name="Lbl_Events">אירועים</string>
+<string name="Lbl_FindFriends">מצא חברים</string>
+<string name="Lbl_Movies">סרטים</string>
+<string name="Lbl_Tell_Friends">ספר לחבר</string>
+<string name="Lbl_CleanCashed">נקה קבצים מזומנים</string>
+<string name="Lbl_Help_Support">עזרה &amp; תמיכה</string>
+<string name="Lbl_Logout">יציאה</string>
+<!--============================================ ==================-->
+
+<!--SettingsPreferences-->
+<!--============================================ ==================-->
+<string name="Lbl_Account_and_Profile">חשבון ופרופיל</string>
+<string name="Lbl_Edit_Profile_and_avatar">ערוך פרופיל</string>
+<string name="Lbl_My_Account">החשבון שלי</string>
+<string name="Lbl_SocialLinks">קישורים חברתיים</string>
+<string name="Lbl_DeleteAccount">מחק חשבון</string>
+<string name="Lbl_GeneralAccount">חשבון כללי</string>
+
+<string name="Lbl_General">כללי</string>
+<string name="Lbl_Language">שפה</string>
+<string name="Lbl_Display_your_app_Language">הצג את שפת האפליקציה שלך</string>
+
+<string name="Lbl_Privacy">פרטיות</string>
+<string name="Lbl_Who_can_follow_me">מי יכול לעקוב אחרי?</string>
+<string name="Lbl_Who_can_message_me">מי יכול לשלוח לי הודעה?</string>
+<string name="Lbl_CanSeeMyfriends">מי יכול לראות את החברים שלי?</string>
+<string name="Lbl_CanPostOnMyTimeline">מי יכול לפרסם בציר הזמן שלי?</string>
+<string name="Lbl_Who_can_see_my_birthday">מי יכול לראות את יום ההולדת שלי?</string>
+<string name="Lbl_ConfirmRequestFollows">אשר בקשה</string>
+<string name="Lbl_Summary_ConfirmRequestFollows">כשמישהו עוקב אחרי</string>
+<string name="Lbl_ShowMyActivities">הצג את הפעילויות שלי</string>
+<string name="Lbl_Status">סטטוס</string>
+<string name="Lbl_ShareMyLocation">שתף את המיקום שלי עם הציבור</string>
+<string name="Lbl_Everyone">כולם</string>
+<string name="Lbl_People_i_Follow">אנשים שאני עוקב אחריהם</string>
+<string name="Lbl_People_Follow_Me">אנשים עוקבים אחרי</string>
+<string name="Lbl_No_body">ללא גוף</string>
+<string name="Lbl_Online">מקוון</string>
+<string name="Lbl_Offline">לא מקוון</string>
+
+<string name="Lbl_Message_Notifications">הודעות הודעות</string>
+<string name="Lbl_Notification_Popup">חלון קופץ של התראות</string>
+<string name="Lbl_Summary_notifications">קבל התראות כאשר אתה מקבל הודעות</string>
+<string name="Lbl_Conversation_tones">צלילי שיחה</string>
+<string name="Lbl_Summary_Play_sounds">השמע צלילים עבור הודעות נכנסות ויוצאות</string>
+
+<string name="Lbl_TellFriend">ספר לחבר</string>
+<string name="Lbl_Summary_Share">שתף את האפליקציה הזו עם החברים שלך</string>
+<string name="Lbl_MyAffiliates">השותפים שלי</string>
+
+<string name="Lbl_Support">תמיכה</string>
+<string name="Lbl_Help">מרכז העזרה</string>
+<string name="Lbl_Report_Problem">דווח על בעיה</string>
+<string name="Lbl_Legal_and_Policies">חוק ומדיניות</string>
+<string name="Lbl_PrivacyPolicy">מדיניות הפרטיות</string>
+<string name="Lbl_About_App">אודותינו</string>
+<string name="Lbl_TermsOfUse">תנאי שימוש</string>
+
+<!--מחק חשבון-->
+<string name="Lbl_Are_you_DeleteAccount">האם אתה בטוח שברצונך למחוק את החשבון מ</string>
+
+<string name="Lbl_IWantToDelete1">כן, אני רוצה למחוק</string>
+<string name="Lbl_IWantToDelete2">לצמיתות מ</string>
+<string name="Lbl_IWantToDelete3">חשבון.</string>
+	<!--===============================================================-->
+
+	<!--V2.3 String translate-->
+<string name="Lbl2_Polls">סקרים</string>
+<string name="Lbl2_Answer">תשובה</string>
+<string name="Lbl2_PollsLimitError">תוכל להגדיר מקסימום 8 תשובות בלבד</string>
+<string name="Lbl2_PollsLimitTwo">עליך להגדיר לפחות 2 תשובות</string>
+
+<!--V2.4 String translate-->
+<string name="Lbl3_Use_Location">השתמש במיקום?</string>
+<string name="Lbl3_GPS_is_disabled">GPS מושבת. האם ברצונך להפעיל GPS</string>
+
+<!--V2.4.2 String translate-->
+<string name="Lbl3_SuggestionsUsers">משתמשי הצעות</string>
+
+<!--Empty State Inflater-->
+<string name="Lbl_NoConnection_TitleText">אין אינטרנט זמין</string>
+<string name="Lbl_NoConnection_DescriptionText">לא הצלחנו ליצור חיבור עם השרתים שלנו, אנא נסה שוב מאוחר יותר.</string>
+<string name="Lbl_NoConnection_Button">נסה שוב</string>
+
+<string name="Lbl_NoSearchResult_TitleText">עצוב ללא תוצאה!</string>
+<string name="Lbl_NoSearchResult_DescriptionText">איננו יכולים למצוא את מילת המפתח שאתה מחפש, אולי טעות כתיב קטנה?</string>
+<string name="Lbl_NoSearchResult_Button">חיפוש אקראי</string>
+
+<string name="Lbl_SomThingWentWrong_TitleText">משהו השתבש</string>
+<string name="Lbl_SomThingWentWrong_DescriptionText">תגובת השרת</string>
+<string name="Lbl_SomThingWentWrong_Button">נסה שוב</string>
+
+<string name="Lbl_NoPost_TitleText">עדיין אין פוסט</string>
+
+<string name="Lbl_NoUsers_TitleText">אין משתמשים להצגה.</string>
+<string name="Lbl_NoUsers_DescriptionText">ברוך הבא, אתה המשתמש הראשון כאן!</string>
+
+<string name="Lbl_NoFollow_TitleText">עדיין אין משתמשים</string>
+<string name="Lbl_NoFollow_DescriptionText">"אין לך חברים לעקוב אחריהם"</string>
+
+<!-- V2.5 String translate -->
+<string name="Lbl_Popular_Posts">פוסטים פופולריים</string>
+<string name="Lbl_Pokes">Pokes</string>
+<string name="Lbl_Poke">Poke</string>
+<string name="Lbl_Poked">Poked</string>
+<string name="Lbl_PokeBack">תקע בחזרה</string>
+<string name="Lbl_YouHavePoked">קיבלת</string>
+<string name="Lbl_YouSentPoked">שלחת כבר Poke</string>
+<string name="Lbl_AddToFamily">הוסף למשפחה</string>
+<string name="Lbl_SentGift">מתנה שנשלחה</string>
+<string name="Lbl_Distance">מרחק</string>
+<string name="Lbl_Filter">מסנן</string>
+<string name="Lbl_ApplyFilter">החל מסנן</string>
+<string name="Lbl_ResetFilter">אפס מסנן</string>
+<string name="Lbl_Send_to">שלח אל</string>
+<string name="Lbl_Replies">תשובות</string>
+<string name="Lbl_BoostPost">פוסט חיזוק</string>
+<string name="Lbl_UnBoostPost">UnBoost Post</string>
+<string name="Lbl_ReportPost">דווח על פוסט</string>
+<string name="Lbl_ReportThisPost">דווח על פוסט זה</string>
+<string name="Lbl_TextCopied">טקסט הועתק ללוח</string>
+<string name="Lbl_LinkCopied">הקישור הועתק ללוח</string>
+<string name="Lbl_postSuccessfullyDeleted">הפוסט נמחק בהצלחה </string>
+<string name="Lbl_postSuccessfullySaved">הפוסט נשמר בהצלחה</string>
+<string name="Lbl_postSuccessfullyUnSaved">הפוסט לא נשמר בהצלחה</string>
+<string name="Lbl_postSuccessfullyBoosted">הפוסט הוגבר בהצלחה</string>
+<string name="Lbl_AreYouSureDeletePost">האם אתה בטוח שברצונך למחוק את הפוסט הזה</string>
+<string name="Lbl_YourReportPost">פוסט שדווח</string>
+<string name="Lbl_DeletePost">מחק פוסט</string>
+<string name="Lbl_SavePost">שמור פוסט</string>
+<string name="Lbl_FileExists">קיים קובץ</string>
+<string name="Lbl_EditEvents">ערוך אירועים</string>
+<string name="Lbl_EventSuccessfullyEdited">האירוע נערך בהצלחה</string>
+<string name="Lbl_NoMoreAlbums">לא נמצאו אלבומים</string>
+<string name="Lbl_NoMoreNotifications">לא נמצאו התראות נוספות</string>
+<string name="Lbl_NoMoreArticles">לא נמצאו מאמרים נוספים</string>
+<string name="Lbl_NoMoreMovies">לא נמצאו סרטים נוספים</string>
+<string name="Lbl_NoMorePages">לא נמצאו דפים נוספים</string>
+<string name="Lbl_NoMoreGroup">לא נמצאה קבוצה נוספת</string>
+<string name="Lbl_NoMoreEvent">לא נמצא אירוע נוסף</string>
+<string name="Lbl_NoMoreProducts">לא נמצאו מוצרים נוספים</string>
+<string name="Lbl_NoMoreActivities">לא נמצאו פעילויות נוספות</string>
+<string name="Lbl_SharePost">שתף פוסט</string>
+<string name="Lbl_ShareTo">שתף ל</string>
+<string name="Lbl_ShareToMyTimeline">שתף לציר הזמן שלי</string>
+<string name="Lbl_ShareToGroup">שתף לקבוצה</string>
+<string name="Lbl_ShareToPage">שתף לדף</string>
+<string name="Lbl_MoreOptions">אפשרויות נוספות</string>
+<string name="Lbl_PostSuccessfullyShared">הפוסט שותף בהצלחה</string>
+	<!--Time-->
+<string name="Lbl_justNow">רק עכשיו</string>
+<string name="Lbl_CutHours">H</string>
+<string name="Lbl_CutDays">D</string>
+<string name="Lbl_CutMonth">M</string>
+<string name="Lbl_CutMinutes">מינימום</string>
+<string name="Lbl_CutSeconds">שנייה</string>
+<string name="Lbl_CutYear">Y</string>
+<string name="Lbl_YourStory">הסיפור שלך</string>
+<string name="Lbl_Add_caption">הוסף כיתוב..</string>
+<string name="Lbl_Verified">מאומת</string>
+<string name="Lbl_UnVerified">לא מאומת</string>
+<string name="Lbl_Age">גיל</string>
+<string name="Lbl_joinRequest">בקשות הצטרפות</string>
+<string name="Lbl_View_All_joinRequest">הצג את כל בקשות ההצטרפות</string>
+<string name="Lbl_Empty_joinRequest">לא נמצאו בקשות</string>
+<string name="Lbl_Do_you_want_approve_join">האם ברצונך לאשר להצטרף</string>
+<string name="Lbl_Accept">קבל</string>
+<string name="Lbl_RequestSuccessfullyAccepted">הבקשה התקבלה בהצלחה</string>
+<string name="Lbl_RequestSuccessfullyDeleted">הבקשה נמחקה בהצלחה</string>
+<string name="Lbl_GoodMorning">בוקר טוב</string>
+<string name="Lbl_GoodMorning_Text">שהבוקר הזה יהיה קל, מבורך, מואר, פרודוקטיבי ושמח</string>
+<string name="Lbl_GoodAfternoon">צהריים טובים</string>
+<string name="Lbl_GoodAfternoon_Text">שיהיה אחר הצהריים קל, מבורך, מואר, פרודוקטיבי ושמח</string>
+<string name="Lbl_GoodEvening">ערב טוב</string>
+<string name="Lbl_GoodEvening_Text">ערבים הם דרך החיים לומר שאתה קרוב יותר לחלומות שלך</string>
+<string name="Lbl_FindMoreAler_TextGroups">דרכים חדשות למצוא ולהצטרף לקהילות</string>
+<string name="Lbl_FindMoreAler_TextPages">חבר את העסק שלך, את עצמך או את המטרה שלך לקהילה העולמית של אנשים</string>
+<string name="Lbl_AddAnswer">הוסף תשובה</string>
+<string name="Lbl_Promoted">מקודם</string>
+<string name="Lbl_LoadingUsername">טוען שם משתמש</string>
+<string name="Lbl_Reply">השב</string>
+<string name="Lbl_Price">מחיר</string>
+<string name="Lbl_Type">סוג</string>
+<string name="Lbl_Join">הצטרף</string>
+<string name="Lbl_EditProduct">ערוך מוצר</string>
+<string name="Lbl_ProductSuccessfullyEdited">המוצר נערך בהצלחה</string>
+<string name="Lbl_CreateAlbum">צור אלבום</string>
+<string name="Lbl_Describe_Description_album">צור אלבום משלך כדי להציל את הרגע המיוחד שלך</string>
+<string name="Lbl_AlbumName">שם האלבום</string>
+<string name="Lbl_NoAnyDescription">אין כל תיאור שיוצג</string>
+<string name="Lbl_ChangedProfileCover">כריכת פרופיל שונה</string>
+<string name="Lbl_ChangedProfilePicture">שנתה תמונת פרופיל</string>
+<string name="Lbl_AddedNewProductForSell">נוסף מוצר חדש למכירה</string>
+<string name="Lbl_CreatedNewArticle">יצר מאמר חדש</string>
+<string name="Lbl_AddedNewPhotosTo">הוסיף תמונות חדשות ל</string>
+<string name="Lbl_SharedPost">שיתף פוסט</string>
+<string name="Lbl_IsTravelingTo">נוסע אל</string>
+<string name="Lbl_IsWatching">צופה</string>
+<string name="Lbl_IsPlaying">מנגן</string>
+<string name="Lbl_IsFeeling">מרגיש</string>
+<string name="Lbl_IsListeningTo">מאזין ל</string>
+<string name="Lbl_NoComments">אין הערות שיוצגו</string>
+<string name="Lbl_ActivationSent">דוא"ל הפעלה נשלח</string>
+<string name="Lbl_ActivationDetails">"שלחנו דוא"ל אל @.<br />לחץ על הקישור בדוא"ל כדי להפעיל את חשבונך"</string>
+<string name="Lbl_FindYourGroups">מצא את הקבוצות שלך</string>
+<string name="Lbl_FindPopularPages">מצא דפים פופולריים</string>
+
+<string name="Btn_Love">אהבה</string>
+<string name="Btn_Haha">הה</string>
+<string name="Btn_Wow">וואו</string>
+<string name="Btn_Sad">עצוב</string>
+<string name="Btn_Angry">כועס</string>
+<string name="Btn_Points">נקודות</string>
+<string name="Btn_Wonder">פלא</string>
+	<!--===============================================================-->
+
+	<!-- V2.5  String translate -->
+	<!--===============================================================-->
+
+	<!-- Verification Code Number-->
+<string name="Lbl_Verification">אימות</string>
+<string name="Lbl_VerificationText1">כדי להיכנס, עליך לאמת את זהותך.</string>
+<string name="Lbl_VerificationText2">שלחנו לך את קוד האישור לכתובת הדוא"ל שלך.</string>
+<string name="Btn_Verify">אמת</string>
+<string name="Lbl_CodeNotCorrect">אנא הקלד את מספר הקוד הנכון</string>
+<string name="Lbl_AddCode">הוסף מספר קוד</string>
+
+<string name="Lbl_AddCommentHere">הוסף תגובה כאן</string>
+<string name="Lbl_NewFeeds">עדכונים חדשים</string>
+<!--============================================ ==================-->
+
+<string name="Lbl_FileNotDeviceMemory">קובץ זה אינו קיים בזיכרון המכשיר</string>
+<string name="Lbl_NotHaveThisUser">אין משתמש זה</string>
+<string name="Lbl_PostDisLike">פרסם דיסלייק</string>
+<string name="Lbl_PostReaction">פוסט תגובה</string>
+
+<string name="Lbl_DeleteComment">מחק תגובה</string>
+<string name="Lbl_AreYouSureDeleteComment">האם אתה בטוח שברצונך למחוק את התגובה הזו?</string>
+<string name="Lbl_CommentSuccessfullyDeleted">התגובה נמחקה בהצלחה</string>
+<string name="Lbl_CopeText">העתק טקסט</string>
+<string name="Lbl_Sponsored">ממומן</string>
+
+<string name="Lbl_Error_MaxCharacters">חרגת ממגבלת הטקסט, חייבת להיות קטנה מ</string>
+<string name="Lbl_sharedYourPost">שיתף את הפוסט שלך</string>
+<string name="Lbl_NoPost_TitleText_hashtag">אין כאן פוסט עבור ההאשטאג הזה</string>
+<string name="Lbl_NoPost_TitleText_saved">אין פוסט שמור</string>
+
+<!-- V2.6 String translate -->
+<!--============================================ ==================-->
+<string name="Lbl_SelectVideoFrom">בחר סרטון מ</string>
+<string name="Lbl_RecordVideoFromCamera">הקלט וידאו מהמצלמה</string>
+<string name="Lbl_Select">בחר</string>
+<string name="Lbl_RemoveLocation">הסר מיקום</string>
+<string name="Lbl_ChangeLocation">שנה מיקום</string>
+<string name="Lbl_Text_copied">טקסט הועתק ללוח</string>
+<string name="Lbl_Currency">מטבע</string>
+<string name="Lbl_SelectCurrency">בחר מטבע</string>
+<string name="Lbl_NoMorePhoto">לא נמצאה תמונה נוספת</string>
+
+<string name="Lbl_MyVideos">הסרטונים שלי</string>
+<string name="Lbl_NoMoreVideo">לא נמצא סרטון נוסף</string>
+<string name="Lbl_Empty_Video">אין סרטון !!</string>
+<string name="Lbl_Start_Video">התחל להעלות סרטונים משלך</string>
+
+
+<string name="Lbl_DeleteJobs">האם אתה בטוח שברצונך למחוק את הפוסט הזה</string>
+<string name="press_again_exit">לחץ שוב כדי לצאת</string>
+<string name="Lbl_MyLocation">המיקום שלי</string>
+<string name="Lbl_CommonThings">דברים נפוצים</string>
+<string name="Lbl_ThingInCommon">נפוץ</string>
+<string name="Lbl_Announcement">הודעה</string>
+<string name="Lbl_Name">שם</string>
+<string name="Lbl_Experience">ניסיון</string>
+<string name="Lbl_Position">מיקום</string>
+<string name="Lbl_WhereDidYouWork">איפה עבדת?</string>
+<string name="Lbl_Phone">טלפון</string>
+<string name="Lbl_FromDate">מתאריך</string>
+<string name="Lbl_ToDate">עד היום</string>
+<string name="Lbl_OfferAJob">הצע עבודה</string>
+<string name="Lbl_CreateJob">צור עבודה</string>
+<string name="Lbl_Date">תאריך</string>
+<string name="Lbl_SalaryDate">תאריך שכר</string>
+<string name="Lbl_AddQuestion">הוסף שאלה</string>
+<string name="Lbl_GetArticlesByCategories">קבל מאמרים לפי קטגוריות</string>
+<string name="Lbl_Rate">דירוג</string>
+<string name="Lbl_ErrorVotedPoll">כבר הצבעת בסקר הזה.</string>
+
+<string name="Lbl_Games">משחקים</string>
+<string name="Lbl_MyGames">המשחקים שלי</string>
+<string name="Lbl_NoMoreGames">לא נמצאו משחקים נוספים</string>
+<string name="Lbl_Empty_Games">אין משחקים להצגה</string>
+<string name="Lbl_Play">הפעל</string>
+
+
+<string name="Lbl_ConfirmRequestGroup">אשר את הבקשה כאשר מישהו מצטרף לקבוצה זו?</string>
+<string name="Lbl_CallToAction">קריאה לפעולה</string>
+<string name="Lbl_CallToTargetUrl">קריאה לכתובת אתר יעד</string>
+<string name="Lbl_PageInformation">מידע דף</string>
+<string name="Lbl_Company">חברה</string>
+
+
+<string name="Lbl_JobTitle">כותרת המשרה</string>
+<string name="Lbl_votesPost">הצבעות</string>
+<string name="Lbl_jobs">משרות</string>
+<string name="Lbl_JobType">סוג המשרה</string>
+<string name="Lbl_NoMoreJobs">לא נמצאה עוד עבודה</string>
+<string name="Lbl_NotHaveAnyJobs">אופס, אין משרות להראות.</string>
+<string name="Lbl_common_things">דברים נפוצים</string>
+<string name="Lbl_Message">הודעה</string>
+<string name="Lbl_Questions">שאלות</string>
+<string name="Lbl_TypeQuestion">הקלד שאלות</string>
+<string name="Lbl_FreeTextQuestion">שאלת טקסט חופשי</string>
+<string name="Lbl_YesNoQuestion">כן/לא שאלה</string>
+<string name="Lbl_MultipleChoiceQuestion">שאלת בחירה מרובת בחירה</string>
+<string name="Lbl_QuestionOne">שאלה ראשונה</string>
+<string name="Lbl_QuestionTwo">שאלה שנייה</string>
+<string name="Lbl_QuestionThree">שאלה שלישית</string>
+<string name="Lbl_Question">שאלה</string>
+<string name="Lbl_ThereAreNoRequests">אין בקשות</string>
+<string name="Lbl_jobSuccessfullyEdited">העבודה נערכה בהצלחה</string>
+<string name="Lbl_jobSuccessfullyAdded">העבודה נוספה בהצלחה</string>
+<string name="Lbl_DescriptionOfAnswer">
+הוסף תגים כדי לתאר יותר על המסלול שלך על ידי הוסף סימן <b>"&apos;,&apos;"</b> בסוף כל אחד מהם
+<b>
+<u>תשובה</u>
+</b>
+ללא רווח ביניהם.
+</string>
+<string name="Lbl_full_time">משרה מלאה</string>
+<string name="Lbl_part_time">משרה חלקית</string>
+<string name="Lbl_internship">התמחות</string>
+<string name="Lbl_volunteer">התנדב</string>
+<string name="Lbl_contract">חוזה</string>
+<string name="Lbl_minimum">מינימום</string>
+<string name="Lbl_maximum">מקסימום</string>
+<string name="Lbl_per_hour">לשעה</string>
+<string name="Lbl_per_day">ליום</string>
+<string name="Lbl_per_week">בשבוע</string>
+<string name="Lbl_per_month">לחודש</string>
+<string name="Lbl_per_year">לשנה</string>
+<string name="Lbl_apply_now">הגיש בקשה עכשיו</string>
+<string name="Lbl_show_applies">הצג חל</string>
+<string name="Lbl_already_applied">כבר הוחל</string>
+<string name="Lbl_ratings">דירוגים</string>
+
+<string name="Lbl_call_action_1">קרא עוד</string>
+<string name="Lbl_call_action_2">קנה עכשיו</string>
+<string name="Lbl_call_action_3">הצג עכשיו</string>
+<string name="Lbl_call_action_4">בקר כעת</string>
+<string name="Lbl_call_action_5">הזמן עכשיו</string>
+<string name="Lbl_call_action_6">למידע נוסף</string>
+<string name="Lbl_call_action_7">שחק עכשיו</string>
+<string name="Lbl_call_action_8">המר עכשיו</string>
+<string name="Lbl_call_action_9">תרום</string>
+<string name="Lbl_call_action_10">הגיש בקשה כאן</string>
+<string name="Lbl_call_action_11">ציטוט כאן</string>
+<string name="Lbl_call_action_12">הזמן עכשיו</string>
+<string name="Lbl_call_action_13">הזמן כרטיסים</string>
+<string name="Lbl_call_action_14">הירשם עכשיו</string>
+<string name="Lbl_call_action_15">מצא כרטיס</string>
+<string name="Lbl_call_action_16">קבל הצעת מחיר</string>
+<string name="Lbl_call_action_17">קבל כרטיסים</string>
+<string name="Lbl_call_action_18">אתר סוחר</string>
+<string name="Lbl_call_action_19">הזמנה מקוונת</string>
+<string name="Lbl_call_action_20">הזמן מראש כעת</string>
+<string name="Lbl_call_action_21">תזמן עכשיו</string>
+<string name="Lbl_call_action_22">הירשם עכשיו</string>
+<string name="Lbl_call_action_23">הירשם</string>
+<string name="Lbl_call_action_24">הירשם עכשיו</string>
+<string name="Lbl_call_action_25">כתוב את זה בקובץ string.xml</string>
+<string name="Lbl_call_action_26">כתוב אותו בקובץ string.xml</string>
+<string name="Lbl_call_action_sorry">מצטערים: כתובת אתר פעולה לא צוינה על ידי בעלי הדף</string>
+
+<string name="Lbl_go_pro_1">חבר מומלץ</string>
+<string name="Lbl_go_pro_2">ראה מבקרים בפרופיל</string>
+<string name="Lbl_go_pro_3">קידום דפים</string>
+<string name="Lbl_go_pro_4">הצג / הסתר שנראה לאחרונה</string>
+<string name="Lbl_go_pro_5">תג מאומת</string>
+<string name="Lbl_go_pro_6">קידום פוסטים</string>
+
+<string name="Lbl_upgrade_now">שדרג עכשיו</string>
+<string name="Lbl_Go_Pro">Go Pro</string>
+
+<string name="Lbl_TwoFactor">אימות דו-גורמי</string>
+<string name="Lbl_Describe_TwoFactor">"הפעל התחברות דו-שלבית כדי לשפר את אבטחת החשבון שלך. לאחר ההפעלה, תשתמש גם בסיסמה וגם בקוד אבטחה בן 6 ספרות שנשלח לטלפון או לדוא"ל שלך היכנס."</string>
+<string name="Lbl_ConfirmationEmail_TwoFactor">שלחנו דוא"ל המכיל את קוד האישור כדי לאפשר אימות דו-גורמי.</string>
+<string name="Lbl_ConfirmationEmailSent">דוא"ל אישור נשלח.</string>
+<string name="Lbl_ConfirmationCode">קוד אישור</string>
+<string name="Lbl_ConfirmationCodeSent">קוד האישור נשלח</string>
+<string name="Lbl_TwoFactorOn">שני גורמים פועל</string>
+<string name="Lbl_Enable">הפעל</string>
+<string name="Lbl_Disable">השבת</string>
+
+<string name="Lbl_Relationship">קשר</string>
+<string name="Lbl_Single">רווק</string>
+<string name="Lbl_InRelationship">במערכת יחסים</string>
+<string name="Lbl_Married">נשוי</string>
+<string name="Lbl_Engaged">מאורסת</string>
+<string name="Lbl_YouHaveAlReadyRatedThisPage">כבר דירגת את הדף הזה!</string>
+<string name="Lbl_WriteYourReview">כתוב את הביקורת שלך.</string>
+<string name="Lbl_NoMoreReviews">לא נמצאה ביקורת נוספת</string>
+<string name="Lbl_NoReviews">לא נמצאה ביקורת</string>
+<string name="Lbl_Reviews">ביקורות</string>
+<string name="Lbl_changeImage">שנה תמונה</string>
+<string name="Lbl_upgrade">שדרוג</string>
+
+<string name="Lbl_Funding">מימון</string>
+<string name="Lbl_FundingRequests">בקשות מימון</string>
+<string name="Lbl_NewFunding">מימון חדש</string>
+<string name="Lbl_FundingSuccessfullyEdited">המימון נערך בהצלחה</string>
+<string name="Lbl_NotHaveAnyFundingRequest">אין לי בקשת מימון</string>
+<string name="Lbl_Please_enter_amount">שגיאה, אנא הזן סכום</string>
+<string name="Lbl_NoMoreFunding">לא נמצא מימון נוסף</string>
+<string name="Lbl_Donate">תרום</string>
+<string name="Lbl_RaisedOf">עלתה מ</string>
+<string name="Lbl_Title">כותרת</string>
+<string name="Lbl_Amount">כמות</string>
+<string name="Lbl_Donated">נתרם</string>
+<string name="Lbl_Please_enter_Currency">שגיאה, אנא הזן מטבע</string>
+<string name="Lbl_Please_select_Rating">שגיאה, אנא בחר דירוג</string>
+<string name="Lbl_Please_enter_review">שגיאה, אנא הזן סקירה</string>
+
+<string name="Lbl_AddMe">הוסף אותי</string>
+<string name="Lbl_SendMessageTo">שלח הודעה אל </string>
+<string name="Lbl_WriteMessage">כתוב הודעה</string>
+<string name="Lbl_BoostPage">דף קידום</string>
+<string name="Lbl_UnBoostPage">דף UnBoost</string>
+<string name="Lbl_PageSuccessfullyBoosted">הדף עלה בהצלחה</string>
+
+<!--פרטי כרטיס תשלום-->
+<string name="Lbl_Expire">פג</string>
+<string name="Lbl_CVV">CVV</string>
+<string name="Lbl_YourName">השם שלך</string>
+<string name="Lbl_CreditCardNumber">מספר כרטיס אשראי</string>
+<string name="Lbl_NameOfCard">שם בכרטיס</string>
+<string name="Lbl_OrUsing">או באמצעות</string>
+<string name="Lbl_PleaseVerifyDataCard">אנא ודא שהנתונים שהוזנו נכונים</string>
+<string name="Lbl_ErrorConnectionSystemStripe">יש שגיאה במערכת התשלומים האלקטרונית, אנא בדוק את מחלקת התחזוקה ותודה</string>
+<string name="Lbl_Canceled">מבוטל</string>
+<string name="Lbl_Invalid">לא חוקי</string>
+<!--============================================ ==================-->
+<string name="Lbl_Night_Mode">מצב לילה</string>
+<string name="Lbl_Default">ברירת מחדל</string>
+
+<string name="Lbl_ManageSessions">נהל הפעלות</string>
+<string name="Lbl_Empty_Sessions">ללא הפעלות !!</string>
+<string name="Lbl_Browser">דפדפן</string>
+<string name="Lbl_IpAddress">כתובת IP</string>
+<string name="Lbl_AreYouSureLogoutFromThisDevice">האם אתה בטוח שברצונך להתנתק מהמכשיר הזה?</string>
+
+<string name="Lbl_DeletePage">מחק עמוד</string>
+<string name="Lbl_DeleteGroup">מחק קבוצה</string>
+<string name="Lbl_ActionButtons">לחצני פעולה</string>
+<string name="Lbl_AreYouSureToDelete">האם אתה בטוח שתמחק?</string>
+<string name="Lbl_GroupSuccessfullyDeleted">הקבוצה נמחקה בהצלחה</string>
+<string name="Lbl_PageSuccessfullyDeleted">הדף נמחק בהצלחה</string>
+
+<string name="Lbl_Members">חברים</string>
+<string name="Lbl_MakeAdmin">הפוך למנהל מערכת</string>
+<string name="Lbl_RemoveAdmin">הסר מנהל מערכת</string>
+<string name="Lbl_RemoveMember">הסר חבר</string>
+<string name="Lbl_BlockMember">חסום חבר</string>
+<string name="Lbl_ViewProfile">הצג פרופיל</string>
+<string name="Lbl_InviteMembers">הזמן חברים</string>
+<string name="Lbl_AddYourFriendsToGroup">הוסף את החברים שלך לקבוצה זו</string>
+<string name="Lbl_InviteFriendsToPage">הזמן חברים לעשות לייק לדף זה</string>
+<string name="Lbl_MessageSentSuccessfully">ההודעה נשלחה בהצלחה</string>
+
+<string name="Lbl_CreatedNewFund">יצר בקשת תרומה</string>
+<string name="Lbl_DonatedRequestFund">נתרם לבקשה</string>
+
+<string name="Lbl_SuggestedGroups">קבוצות מוצעות</string>
+<string name="Lbl_SuggestedForYou">מוצע עבורך</string>
+<string name="Lbl_Discover">גלה</string>
+<string name="Lbl_SeeAll">ראה הכל</string>
+<string name="Lbl_Categories">קטגוריות</string>
+<string name="Lbl_FindGroupByCategories">מצא קבוצה על ידי עיון בקטגוריות המובילות</string>
+<string name="Lbl_RandomGroups">קבוצות אקראיות</string>
+<string name="Lbl_GetMoviesByCategories">קבל סרטים לפי קטגוריות</string>
+<string name="Lbl_Empty_Gif">ללא gif !!</string>
+<string name="Lbl_Please_select_privacy">שגיאה, אנא בחר פרטיות</string>
+
+	<!-- V2.6.4 String translate -->
+	<!--===============================================================-->
+<string name="Lbl_ContinueAs">המשך כ</string>
+<string name="Lbl_Collected">נאסף</string>
+<string name="Lbl_Empty_Activities">ללא פעילויות !!</string>
+
+	<!-- V2.7 String translate -->
+	<!--===============================================================-->
+<string name="Lbl_Light">אור</string>
+<string name="Lbl_Dark">כהה</string>
+<string name="Lbl_SetByBattery">מוגדר על ידי חיסכון בסוללה</string>
+<string name="Lbl_ErrorFileNotSupported">קובץ זה אינו נתמך בשרת , אנא בחר קובץ אחר</string>
+<string name="Lbl_EarnUpTo">הרוויח עד</string>
+<string name="Lbl_forEachUserYourReferToUs">עבור כל משתמש שאתה מפנה אלינו</string>
+<string name="Lbl_MyPoints">הנקודות שלי</string>
+<string name="Lbl_Earn">הרווח</string>
+<string name="Lbl_ByCommentingAnyPost">על ידי הערת פוסט כלשהו</string>
+<string name="Lbl_ByCreatingNewPost">על ידי יצירת פוסט חדש</string>
+<string name="Lbl_ByCreatingNewBlog">על ידי יצירת בלוג חדש</string>
+<string name="Lbl_ByReactingAnyPost">על ידי תגובה על כל פוסט</string>
+<string name="Lbl_ByWonderingAnyPost">על ידי תוהה בכל פוסט</string>
+<string name="Lbl_ByDislikingAnyPost">על ידי דיסלייק בכל פוסט</string>
+<string name="Lbl_YourEarnedPoints">הנקודות שצברת יעברו אוטומטית ל-#Wallet</string>
+<string name="Lbl_MyBalance">היתרה שלי</string>
+<string name="Lbl_EmailOrUserName">דוא"ל או שם משתמש</string>
+<string name="Lbl_SendMoneyToFriends">שלח כסף לחברים</string>
+<string name="Lbl_YouCanSendMoney">תוכל לשלוח כסף לחברים, למכרים או לכל אחד</string>
+<string name="Lbl_AddFunds">הוסף כספים</string>
+<string name="Lbl_SendMoney">שלח כסף</string>
+<string name="Lbl_Home">בית</string>
+<string name="Lbl_Continue">המשך</string>
+<string name="Lbl_ReplenishMyBalance">השלמה את היתרה שלי</string>
+<string name="Lbl_WalletCredits">ארנק &amp; קרדיטים</string>
+<string name="Lbl_CurrentBalance">יתרה נוכחית</string>
+<string name="Lbl_Please_enter_name_email">שגיאה, אנא הזן שם או דוא"ל</string>
+<string name="Lbl_ThisPostContainsSensitive">פוסט זה מכיל תוכן רגיש שחלק מהאנשים עלול למצוא בו פוגע או מטריד</string>
+<string name="Lbl_SeePost">ראה פוסט</string>
+<string name="Lbl_SelectUser">בחר משתמש</string>
+<string name="Lbl_NoPost_TitleText_Group">אין פוסטים להצגה</string>
+<string name="Lbl_MyArticle">המאמר שלי</string>
+<string name="Lbl_ContentAskOPenAppMessenger">אנחנו לוקחים אותך לאפליקציה אחרת, האם ברצונך להמשיך?</string>
+
+<!--Follow Request-->
+<string name="Lbl_FollowRequest">עקוב אחר בקשות</string>
+<string name="Lbl_View_All_FollowRequest">הצג את כל בקשות המעקב</string>
+
+<string name="Lbl_AddPicturesToAlbum">האם ברצונך להוסיף תמונות לאלבום?</string>
+<string name="Lbl_Earnings">רווחים</string>
+<string name="Lbl_ChooseRelationshipStatus">בחר את סטטוס מערכת היחסים שלך</string>
+<string name="Lbl_Theme">נושא</string>
+<string name="Lbl_CreateAsAlbum">צור כאלבום</string>
+<string name="Lbl_Story_Added">הסיפור נוסף</string>
+<string name="Lbl_UploadingPost">העלאת פוסט</string>
+<string name="Lbl_UploadingStory">העלאת סיפור</string>
+
+	<!-- V2.8 String translate -->
+	<!--===============================================================-->
+<string name="Lbl_Summary_OnlineUsers">הצג מתי משתמשים מחוברים</string>
+<string name="Lbl_Display">תצוגה</string>
+<string name="Lbl_ShowOnlineUsers">הצג משתמשים מקוונים</string>
+<string name="Lbl_MyInformation">המידע שלי</string>
+<string name="Lbl_DownloadMyInformation">הורד את המידע שלי</string>
+<string name="Lbl_MyInformation_SubText">אנא בחר איזה מידע תרצה להוריד</string>
+<string name="Lbl_YourFileIsReady">הקובץ שלך מוכן להורדה</string>
+<string name="Lbl_YourFileIsDownloaded">הקובץ שלך הורד בהצלחה</string>
+<string name="Lbl_DownloadAndView">הורד &amp; הצג</string>
+<string name="Lbl_Admin">אדמין</string>
+<string name="Lbl_MyFriends">החברים שלי</string>
+<string name="Lbl_Anonymous">אנונימי</string>
+
+<string name="Lbl_BankTransfer">העברה בנקאית</string>
+<string name="Lbl_YourWasReceiptSuccessfullyUploaded">הקבלה שלך הועלתה בהצלחה</string>
+<string name="Lbl_Note">הערה:</string>
+<string name="Lbl_long_Note">כדי לאשר את ההעברה הבנקאית, יהיה עליך להעלות קבלה או לצלם צילום מסך של ההעברה שלך תוך יום אחד מתאריך התשלום שלך. אם בוצעה העברה בנקאית אך לא הועלתה קבלה בתוך תקופה זו, הזמנתך תבוטל. אנו נאמת ונאשר את הקבלה שלך תוך 3 ימי עבודה מהתאריך שהעלית אותה.</string>
+<string name="Lbl_AccountNumber">מספר חשבון / IBAN</string>
+<string name="Lbl_AccountName">שם החשבון</string>
+<string name="Lbl_RoutingCode">קוד ניתוב</string>
+<string name="Lbl_ErrorPleaseSelectImage">שגיאה, אנא בחר תמונה</string>
+<string name="Lbl_Country">מדינה</string>
+<string name="Btn_Paypal">Paypal</string>
+<string name="Btn_GooglePlay">Google Play</string>
+
+<string name="Lbl_InvitationLinks">קישורי הזמנה</string>
+<string name="Lbl_AvailableLinks">קישורים זמינים</string>
+<string name="Lbl_GeneratedLinks">קישורים שנוצרו</string>
+<string name="Lbl_UsedLinks">קישורים משומשים</string>
+<string name="Lbl_GenerateLinks">צור קישורים</string>
+<string name="Lbl_Copy">העתק</string>
+<string name="Lbl_InvitedUser">משתמש מוזמן</string>
+<string name="Lbl_Url">כתובת אתר</string>
+
+<string name="Lbl_Activities">פעילויות</string>
+
+<string name="Lbl_Offer">הצעה</string>
+<string name="Lbl_OfferPostAdded">יצר מבצע חדש</string>
+
+<string name="Lbl_Memories">זכרונות</string>
+<string name="Lbl_NoMoreMemories">לא נמצאו עוד זיכרונות</string>
+<string name="Lbl_Empty_Memories">"אופס! אין זכרונות"</string>
+<string name="Lbl_Friendversaries">חברים</string>
+
+<string name="Lbl_Offers">הצעות</string>
+<string name="Lbl_NoMoreOffers">אין הצעות זמינות להצגה</string>
+<string name="Lbl_Empty_Offers">אין הצעות</string>
+<string name="Lbl_DiscountType">סוג הנחה</string>
+<string name="Lbl_DiscountItems">פריטים ו/או שירותים בהנחה</string>
+<string name="Lbl_CreateOffers">צור הצעות</string>
+<string name="Lbl_EditOffers">ערוך הצעות</string>
+<string name="Lbl_DiscountPercent">אחוז הנחה</string>
+<string name="Lbl_DiscountAmount">סכום הנחה</string>
+<string name="Lbl_BuyGetDiscount">קנה X קבל הנחה של Y</string>
+<string name="Lbl_SpendGetOff">הוצאה X הורד Y</string>
+<string name="Lbl_FreeShipping">משלוח חינם</string>
+<string name="Lbl_Buy">קנה</string>
+<string name="Lbl_Get">קבל</string>
+<string name="Lbl_Spend">הוצאה</string>
+<string name="Lbl_AmountOff">סכום הנחה</string>
+<string name="Lbl_Time">זמן</string>
+<string name="Lbl_Discount">הנחה</string>
+<string name="Lbl_OfferSuccessfullyEdited">ההצעה נערכה בהצלחה</string>
+<string name="Lbl_OfferSuccessfullyAdded">ההצעה נוספה בהצלחה</string>
+<string name="Lbl_DeleteOffers">האם אתה בטוח שברצונך למחוק את הפוסט הזה</string>
+
+<string name="Lbl_SearchForPosts">חפש פוסטים</string>
+
+<string name="Lbl_NoMemoriesDescriptions">תודה על פנייתך. אין זיכרונות לראות היום, אבל נודיע לך כשיהיה לנו על מה להסתכל אחורה.</string>
+<string name="Lbl_NoCommentThingsDescriptions">תודה על פנייתך. אין דברים נפוצים עם משתמשים שיוצגו עבורך.</string>
+<string name="Lbl_NoJobsDescriptions">מצטערים, אין משרות זמינות בשלב זה.</string>
+<string name="Lbl_NoNotifcationsDescriptions">הישארו מעודכנים! הודעות על הפעילות שלך יופיעו כאן.</string>
+
+<string name="Lbl_Event">אירוע</string>
+<string name="Lbl_CreatedNewEvent">יצר אירוע חדש</string>
+<string name="Lbl_Invited">מוזמן</string>
+<string name="Lbl_Past">עבר</string>
+
+<string name="Lbl_CreditCard">כרטיס אשראי</string>
+<string name="Btn_Continue">המשך</string>
+
+<string name="Lbl_NearbyShops">חנויות בקרבת מקום</string>
+<string name="Lbl_Empty_Shop">לא נמצאו חנויות</string>
+
+
+<string name="Lbl_NearbyBusiness">עסק קרוב</string>
+<string name="Lbl_Empty_Business">לא נמצא עסק</string>
+
+	<!--Withdrawals-->
+<string name="Lbl_Withdrawals">משיכות</string>
+<string name="Lbl_PayPalEmail">דואר אלקטרוני של PayPal</string>
+<string name="Lbl_CantRequestWithdrawals">אינך יכול לבקש סכום זה שאינו תואם את היתרה הנוכחית שלך</string>
+<string name="Lbl_RequestSentWithdrawals">בקשת המשיכה שלך נשלחה בהצלחה</string>
+<string name="Lbl_Withdrawals_SubText1">היתרה שלך היא</string>
+<string name="Lbl_Withdrawals_SubText2">בקשת המשיכה המינימלית היא</string>
+<string name="Lbl_WithdrawMethod">שיטת ביטול</string>
+<string name="Lbl_SwiftCode">קוד Swift</string>
+<string name="Lbl_Address">כתובת</string>
+<string name="Lbl_RequestWithdrawal">בקש משיכה</string>
+<string name="Lbl_Bank">בנק</string>
+
+<string name="Lbl_AddedNewPhoto">נוספה תמונה חדשה</string>
+<string name="Lbl_Publish">פרסם</string>
+
+<string name="Lbl_CommentsAreDisabledBy">תגובות מושבתות על ידי</string>
+<string name="Lbl_EnableComments">הפעל הערות</string>
+<string name="Lbl_DisableComments">השבת הערות</string>
+<string name="Lbl_PostCommentsDisabled">השבת הערות לפוסטים</string>
+<string name="Lbl_PostCommentsEnabled">פוסט הערות מופעלות</string>
+
+<string name="Lbl_UsersCanPostOnMyPage">משתמשים יכולים לפרסם בדף שלי</string>
+<string name="Lbl_WasLive">היה בשידור חי</string>
+<string name="Lbl_UnSavePost">בטל שמירת פוסט</string>
+<string name="Lbl_SorryUserIsAnonymous">מצטערים, משתמש זה אנונימי</string>
+
+<!--אימות-->
+<string name="Lbl_YourPhoto">התמונה שלך</string>
+<string name="Lbl_Passport">דרכון</string>
+<string name="Lbl_Please_enter_Messages">שגיאה, אנא הזן הודעות</string>
+<string name="Lbl_WelcomeTo">ברוכים הבאים ל</string>
+<string name="Lbl_Please_select_Image_passport">אנא בחר תמונה עדכנית של הדרכון או המזהה שלך.</string>
+<string name="Lbl_SubmitRequest">שלח בקשה</string>
+<string name="Lbl_Congratulations_verified">מזל טוב, אתה מאומת. תודה על אימות המזהה שלך</string>
+<string name="Lbl_Please_add_info">אימות הפרופיל!</string>
+<string name="Lbl_Successfully_Verification">בקשת האימות שלך תיבחן בקרוב</string>
+
+<string name="Lbl_SubCategories">קטגוריות משנה</string>
+<string name="Lbl_NoMorePost">לא נמצא פוסט נוסף</string>
+<string name="Lbl_DeleteFunding">האם אתה בטוח שברצונך למחוק את בקשת המימון הזו?</string>
+<string name="Lbl_ThereIsNoBalance">אין איזון</string>
+
+<string name="Lbl_PostingAs">מפרסם כ</string>
+<string name="Lbl_PageUsername">שם משתמש בדף</string>
+<string name="Lbl_GroupUsername">שם משתמש קבוצתי</string>
+<string name="Lbl_ThisUserNotActive">משתמש זה לא הופעל, אנא בדוק את הדוא"ל שלך</string>
+<string name="Lbl_UserNotFound">המשתמש לא נמצא</string>
+<string name="Lbl_ReactToThisComment">הגיב לתגובה זו</string>
+
+<string name="Lbl_VoiceRecord">הקלטת קול</string>
+<string name="Lbl_ErrorFileSharing">מצטערים, לא ניתן להשלים את תהליך שיתוף הקבצים. עליך להיכנס תחילה</string>
+
+<!-- V3.2 String translate -->
+<!--============================================ ==================-->
+<string name="Lbl_Sort">מיין</string>
+<string name="Lbl_confirmationUnFriend">האם אתה בטוח שברצונך להסיר את המשתמש הזה בתור חבר שלך?</string>
+<string name="Lbl_Confirm">אשר</string>
+<string name="Lbl_WorkingAt">עובד ב</string>
+<string name="Lbl_LivingIn">גר ב</string>
+<string name="Lbl_StudyingAt">לומד ב</string>
+<string name="Lbl_RateOurApp">דרג את האפליקציה שלנו</string>
+<string name="Lbl_RateOurAppContent">אם אתה אוהב את האפליקציה שלנו, אנא הקדש רגע כדי להזכיר אותה.</string>
+<string name="Lbl_CreatedSuccessfully">נוצר בהצלחה</string>
+
+<string name="Lbl_Live">חי</string>
+<string name="Lbl_HeSentYouGift">הוא שלח לך מתנה</string>
+<string name="Lbl_DonateCode">0.00</string>
+
+<string name="Lbl_PayNow">שלם עכשיו</string>
+<string name="Lbl_PayWith">שלם עם</string>
+<string name="Lbl_Upgraded">משודרג</string>
+<string name="Lbl_Added">נוסף</string>
+<string name="Lbl_Rated">מדורג</string>
+<string name="Lbl_PaymentSuccessfully">תשלום בהצלחה</string>
+<string name="Lbl_RazorPay">RazorPay</string>
+<string name="Lbl_PayStack">Paystack</string>
+<string name="Lbl_CashFree">ללא מזומן</string>
+<string name="Lbl_PaySera">Paysera</string>
+<string name="Lbl_MoneySentSuccessfully">כסף נשלח בהצלחה</string>
+<string name="Lbl_CantDonate">"אינך יכול לתרום יותר מ"</string>
+<string name="Lbl_HoldToRecord">החזק כדי להקליט שחרור כדי לשלוח</string>
+<string name="Lbl_Processing">מעבד</string>
+<string name="Lbl_CreateArticle">צור מאמר</string>
+<string name="Lbl_CommentReaction">תגובת תגובה</string>
+<string name="Lbl_BrowseFunding">עיין במימון</string>
+<string name="Lbl_MyFunding">המימון שלי</string>
+<string name="Lbl_PostLinkContentVideo">הוא סרט אירוח, שיתוף.</string>
+<string name="Lbl_PostLinkContentFacebook">פייסבוק הוא אתר רשת חברתית שמקל עליך להתחבר ולשתף עם משפחה וחברים באינטרנט.</string>
+
+<!-- V3.5 String translate -->
+<!--============================================ ==================-->
+<string name="Lbl_ThereIsNewUpdate">יש עדכון חדש</string>
+<string name="Lbl_DiscoverNewVersion">גלה גרסה חדשה</string>
+<string name="Lbl_Current">נוכחי</string>
+<string name="Lbl_Reactions">תגובות</string>
+
+<string name="Lbl_HeadTextGoPro">תכונות Pro מעניקות לך שליטה מלאה על הפרופיל שלך.</string>
+<string name="Lbl_HeadSecondTextGoPro">בחר את התוכנית שלך</string>
+<string name="Lbl_RecentDonations">תרומות אחרונות</string>
+<string name="Lbl_ReportThisUser">דווח על משתמש זה</string>
+<string name="Lbl_NewPost">פוסט חדש</string>
+
+<!-- V3.6 String translate -->
+<!--============================================ ==================-->
+<!--פרסום-->
+<string name="Lbl_Create_Ad">צור מודעה</string>
+<string name="Lbl_Describe_Advertise">הוסף את המודעה שלך</string>
+<string name="Lbl_Describe_Description_Advertise">פרסם את העסק, המותג או הארגון שלך.</string>
+<string name="Lbl_MediaFile">קובץ מדיה</string>
+<string name="Lbl_CompanyName">שם החברה</string>
+<string name="Lbl_ChooseImage">בחר תמונה</string>
+<string name="Lbl_Details">פרטים</string>
+<string name="Lbl_CampaignTitle">כותרת מסע הפרסום</string>
+<string name="Lbl_CampaignDescription">תיאור מסע הפרסום</string>
+<string name="Lbl_MyPages">הדפים שלי</string>
+<string name="Lbl_Targeting">מיקוד</string>
+<string name="Lbl_Audience">קהל</string>
+<string name="Lbl_Placement">מיקום</string>
+<string name="Lbl_CampaignBudget">תקציב מסע פרסום</string>
+<string name="Lbl_Bidding">הגשת הצעות</string>
+<string name="Lbl_Selected">נבחר</string>
+<string name="Lbl_PlacementPost">פוסט (תמונה בפורמט קובץ)</string>
+<string name="Lbl_PlacementSidebar">סרגל צד (תמונה בפורמט קובץ)</string>
+<string name="Lbl_BiddingClick">תשלום לקליק ($0.05)</string>
+<string name="Lbl_BiddingViews">תשלום לכל הופעה ($0.01)</string>
+<string name="Lbl_Please_enter_Website">שגיאה, נא להיכנס לאתר</string>
+<string name="Lbl_Please_select_page">שגיאה, אנא בחר דף</string>
+<string name="Lbl_Please_select_Gender">שגיאה, אנא בחר מגדר</string>
+<string name="Lbl_Please_select_Placement">שגיאה, אנא בחר מיקום</string>
+<string name="Lbl_Please_select_Budget">שגיאה, בחר תקציב</string>
+<string name="Lbl_Please_select_Bidding">שגיאה, אנא בחר במתן הצעות</string>
+<string name="Lbl_Please_select_Audience">שגיאה, אנא בחר קהל</string>
+
+<string name="Lbl_SelectAll">בחר הכל</string>
+
+	<!-- V3.7 String translate -->
+	<!--===============================================================-->
+	<!--Live Video Agora-->
+<string name="Lbl_CreateLiveVideo">צור וידאו חי</string>
+<string name="Lbl_IsLiveNow">חי עכשיו</string>
+<string name="Lbl_AddLiveVideoContext">הוסף הקשר וידאו חי</string>
+<string name="Lbl_PleaseEnterLiveStreamName">אנא הזן את שם הזרם החי</string>
+<string name="Lbl_Go_Live">עבור לשידור חי</string>
+<string name="Lbl_GetReady">התכונן</string>
+<string name="Lbl_JoiningStream">הצטרפות לזרם</string>
+<string name="Lbl_LiveStreamHasEnded">השידור החי הזה הסתיים</string>
+<string name="Lbl_LiveStreamShareSuccess">תודה, אנו מקווים לראותך שוב</string>
+<string name="Lbl_Finish">סיום</string>
+<string name="Lbl_StartedBroadcastingLive">התחיל בשידור חי</string>
+<string name="Lbl_StreamHasEnded">הזרם הסתיים.</string>
+<string name="Lbl_LiveStreamer_alert_title">מוכן להפסיק את הסטרימינג בשידור חי?</string>
+<string name="Lbl_LiveStreamer_alert_message">"הקש על &apos;כן&apos; כדי לסיים את הזרם שלך או על &apos;לא&apos; כדי להמשיך"</string>
+<string name="Lbl_LiveViewer_alert_title">מוכן להפסיק לצפות?</string>
+<string name="Lbl_LiveViewer_alert_message">"הקש על &apos;כן&apos; כדי לצאת מהזרם החי או על &apos;לא&apos; כדי להמשיך לצפות"</string>
+
+<!--מזג אוויר-->
+<string name="Lbl_NoTrending_TitleText">אין מגמות זמינות</string>
+<string name="Lbl_Weather">מזג אוויר</string>
+
+<string name="Lbl_TrendingHashTags">תגי hashTags פופולריים</string>
+<string name="Lbl_AllShortcuts">כל קיצורי הדרך</string>
+<string name="Lbl_LastBlogs">בלוגים אחרונים</string>
+
+	<!-- V3.8 String translate -->
+	<!--===============================================================-->
+<string name="Lbl_SeenBy">נראה על ידי</string>
+
+	<!-- V3.9 String translate -->
+	<!--===============================================================-->
+<string name="Lbl_YourLiveStreamHasEnded">השידור החי שלך הסתיים</string>
+<string name="Lbl_LiveStreamer_End_title">תודה, אנו מקווים לראותך שוב</string>
+<string name="Lbl_LiveViewer_End_title">התחל שידור חי משלך כעת</string>
+<string name="Lbl_LifeTime">זמן חיים</string>
+<string name="Lbl_BoostUpTo">הגבר עד</string>
+<string name="Lbl_Posts">פוסטים</string>
+<string name="Lbl_ExchangeCurrency">מטבע החלפה</string>
+<string name="Lbl_UpdatedAt">עודכן ב-</string>
+
+<string name="Lbl_CoronaVirus">CoronaVirus</string>
+<string name="Lbl_CoronaVirusInfo">מרכז המידע על וירוס קורונה (COVID-19)</string>
+<string name="Lbl_NewCases">מקרים חדשים</string>
+<string name="Lbl_NewDeaths">מקרי מוות חדשים</string>
+<string name="Lbl_ActiveCases">מקרים פעילים</string>
+<string name="Lbl_Deaths">מוות</string>
+<string name="Lbl_TotalCases">סה"כ מקרים</string>
+<string name="Lbl_Recovered">שוחזר</string>
+<string name="Lbl_LastUpdated">עודכן לאחרונה</string>
+
+<string name="Lbl_CoronaVirus_HeadText">עזור למנוע את התפשטות נגיף הקורונה.</string>
+<string name="Lbl_CoronaVirus_SubText">ראה את המידע העדכני ביותר מארגון הבריאות העולמי כדי שתוכל לסייע במניעת התפשטות קוביד-19.</string>
+
+<string name="Lbl_NoPageManaged">"אין לך שום דף מנוהל"</string>
+<string name="Lbl_NoGroupManaged">"אין לך קבוצה כלשהי"</string>
+
+<string name="login_description">הישאר מחובר לחשבון שלך כדי להיות <br />מעודכן ברשת שלך</string>
+<string name="no_account">"אין לך חשבון?"</string>
+<string name="field_required">שדה זה נדרש</string>
+<string name="register_description">הירשם ל-Wowonder באמצעות <br />האימייל או החשבונות החברתיים שלך</string>
+<string name="register_using_google">הירשם באמצעות Google</string>
+<string name="register_using_facebook">הירשם באמצעות Facebook</string>
+<string name="register_using_email">הירשם באמצעות דוא"ל</string>
+<string name="already_account">כבר יש לך חשבון?</string>
+<string name="create_account">צור חשבון</string>
+<string name="request_password_link">בקש קישור סיסמה</string>
+<string name="link_sent_successfully">הקישור נשלח בהצלחה</string>
+
+<string name="Lbl_FeaturedPosts">פוסטים מוצגים</string>
+<string name="Lbl_PagesLiked">דפים שאוהבו</string>
+
+
+<!-- V4.1 String translate -->
+<!--============================================ ==================-->
+<string name="Lbl_Or">או</string>
+<string name="Lbl_ByCreatingAnAccountYou">על ידי יצירת חשבון אתה</string>
+<string name="Lbl_Forgot_password">שכחתי סיסמה</string>
+<string name="Lbl_Forgot_password_Des">אנא הזן את כתובת הדוא"ל שלך. <br />תקבל קישור ליצירת סיסמה חדשה.</string>
+<string name="Lbl_AddStory">הוסף סיפור</string>
+<string name="Lbl_EditAvatar">ערוך אוואטר</string>
+<string name="Lbl_EditCover">ערוך שער</string>
+<string name="Lbl_Wallet">ארנק</string>
+<string name="Lbl_ICurrentlyWork">כרגע אני עובד כאן</string>
+<string name="Lbl_FilterByCategory">סנן לפי קטגוריה</string>
+<string name="Lbl_Comments">תגובות</string>
+<string name="Lbl_Shares">שיתופים</string>
+<string name="Lbl_Unlimited">ללא הגבלה</string>
+<string name="Lbl_ProfileDetails">פרטי פרופיל</string>
+<string name="Lbl_TypeSomethingsHere">הקלד משהו כאן</string>
+<string name="Lbl_Posted">פורסם</string>
+
+<string name="Lbl_Product_Condition">מצב המוצר</string>
+<string name="Lbl_Product_Image">תמונת מוצר</string>
+<string name="Lbl_Enter_Product_Name">הזן את שם המוצר</string>
+<string name="Lbl_Enter_Product_Price">הזן מחיר מוצר</string>
+<string name="Lbl_Select_Product_Currency">בחר מטבע מוצר</string>
+<string name="Lbl_Enter_Product_Description">הזן את תיאור המוצר</string>
+<string name="Lbl_Select_New_Used">בחר חדש / משומש</string>
+<string name="Lbl_Select_Location">בחר מיקום</string>
+
+<string name="Lbl_CommentAnyPost">מגיב לכל פוסט</string>
+<string name="Lbl_CreatingNewPost">יצירת פוסט חדש</string>
+<string name="Lbl_ReactingPost">מגיב לפוסט</string>
+<string name="Lbl_CreatingNewBlog">יצירת בלוג חדש</string>
+
+<string name="Lbl_WantEarnMorePoint">רוצה לצבור נקודות נוספות?</string>
+<string name="Lbl_EarnsPointComment">צבור נקודות על ידי הערה על כל פוסט</string>
+<string name="Lbl_EarnsPointPost">צבור נקודות על ידי יצירת פוסט חדש</string>
+<string name="Lbl_EarnsPointReaction">צבור נקודות על ידי תגובה על כל פוסט</string>
+<string name="Lbl_EarnsPointBlog">צבור נקודות על ידי יצירת בלוג חדש</string>
+
+<string name="Lbl_Plus10Points">10+ נקודות</string>
+<string name="Lbl_Plus20Points">+20 נקודות</string>
+<string name="Lbl_Plus5Points">5 נקודות+</string>
+<string name="Lbl_Plus15Points">+15 נקודות</string>
+<string name="Lbl_CreatePost">צור פוסט</string>
+<string name="Lbl_ReactionPost">תגובה על פוסט</string>
+<string name="Lbl_CreateBlog">צור בלוג</string>
+
+<string name="Lbl_SelectCategory">בחר קטגוריה</string>
+<string name="Lbl_SelectPrivacy">בחר פרטיות</string>
+<string name="Lbl_DescribGroup">תאר את הקבוצה שלך</string>
+<string name="Lbl_SetGroupUserName">הגדר את שם המשתמש של הקבוצה שלך</string>
+<string name="Lbl_SetGroupTitle">הגדר את כותרת הקבוצה שלך</string>
+
+<string name="Lbl_DescribePage">תאר את הדף שלך</string>
+<string name="Lbl_SetPageUserName">הגדר את שם המשתמש של הדף שלך</string>
+<string name="Lbl_SetPageTitle">הגדר את כותרת הדף שלך</string>
+<string name="Lbl_PopularProducts">מוצרים פופולריים</string>
+
+<string name="Lbl_PopularJobs">משרות פופולריות</string>
+<string name="Lbl_ViewAll">הצג הכל</string>
+<string name="Lbl_RecentJobs">משרות אחרונות</string>
+
+<string name="Lbl_PhoneNumberIsWrong">מספר הטלפון שגוי</string>
+<string name="Lbl_SeeYourProfile">ראה את הפרופיל שלך</string>
+<string name="Lbl_NewMessages">הודעות חדשות</string>
+<string name="Lbl_ExploreJobs">חקר משרות</string>
+<string name="Lbl_SearchForJobsHere">חפש משרות כאן</string>
+<string name="Lbl_Option">אפשרות</string>
+<string name="Lbl_FilterFriends">סנן חברים</string>
+
+<string name="Lbl_Done">בוצע</string>
+<string name="Lbl_Next">הבא</string>
+<string name="Lbl_ReportThisPage">דווח על דף זה</string>
+<string name="Lbl_ReportThisGroup">דווח על קבוצה זו</string>
+<string name="Lbl_CancelReport">בטל דוח</string>
+<string name="Lbl_HasBeenReported">דווח</string>
+<string name="Lbl_Boosted">מוגבר</string>
+<string name="Lbl_BoostedPosts">פוסטים מוגברים</string>
+<string name="Lbl_BoostedPages">דפים מוגברים</string>
+<string name="Lbl_PopularGames">משחקים פופולריים</string>
+<string name="Lbl_FriendsBirthday">יום הולדת חברים</string>
+<string name="Lbl_YearsOld">בן שנים</string>
+<string name="Lbl_HidePost">הסתר פוסט</string>
+<string name="Lbl_PostSuccessfullyHided">הפוסט הוסתר בהצלחה</string>
+<string name="Lbl_ResetPassword">אפס סיסמה</string>
+
+<string name="Lbl_SomeoneLikedMyPosts">מישהו אהב את הפוסטים שלי</string>
+<string name="Lbl_SomeoneCommentedMyPosts">מישהו הגיב על הפוסטים שלי</string>
+<string name="Lbl_SomeoneSharedMyPosts">מישהו שיתף בפוסטים שלי</string>
+<string name="Lbl_SomeoneFollowedMe">מישהו עקב אחרי</string>
+<string name="Lbl_SomeoneLikedMyPages">מישהו אהב את הדפים שלי</string>
+<string name="Lbl_SomeoneVisitedMyProfile">מישהו ביקר בפרופיל שלי</string>
+<string name="Lbl_SomeoneMentionedMe">מישהו הזכיר אותי</string>
+<string name="Lbl_SomeoneJoinedMyGroups">מישהו הצטרף לקבוצות שלי</string>
+<string name="Lbl_SomeoneAcceptedMyFriendRequest">מישהו קיבל את בקשת החבר/המעקב שלי</string>
+<string name="Lbl_SomeonePostedOnMyTimeline">מישהו פרסם בציר הזמן שלי</string>
+<string name="Lbl_YouHaveRemembranceOnThisDay">יש לך זיכרון ביום זה</string>
+
+<string name="Lbl_AccountActivated_Title">מזל טוב, החשבון שלך הופעל.</string>
+<string name="Lbl_AccountActivated_Description">החשבון שלך הופעל באמצעות קוד אימות ואימייל.</string>
+<string name="Lbl_Error_IsUserYearsOld">מצטערים, לא ניתן לבצע רישום עקב אי עמידה בדרישות הגיל של מעל 18 שנים</string>
+
+<string name="Lbl_SuggestedPages">דפים מוצעים</string>
+<string name="Lbl_RandomPages">דפים אקראיים</string>
+<string name="Lbl_FindPageByCategories">מצא דף על ידי עיון בקטגוריות המובילות</string>
+
+<string name="Lbl_NoOneViewTheStory">אף אחד לא צופה בסיפור</string>
+<string name="Lbl_ViewedBy">נצפה על ידי</string>
+<string name="Lbl_Remove">הסר</string>
+<string name="Lbl_AddMoreOptions">הוסף אפשרויות נוספות</string>
+<string name="Lbl_Reset">אפס</string>
+<string name="Lbl_FilterJobs">עבודות סינון</string>
+<string name="Lbl_JobsType">סוג משרות</string>
+<string name="Lbl_JobQualification">הסמכה לתפקיד</string>
+<string name="Lbl_Apply">החל</string>
+<string name="Lbl_Clear">נקה</string>
+<string name="Lbl_ShowResult">הצג תוצאה</string>
+<string name="Lbl_Step">שלב</string>
+<string name="Lbl_UploadPhoto">העלה תמונה</string>
+<string name="Lbl_FundingImage">תמונת מימון</string>
+<string name="Lbl_FundingTitle">כותרת מימון</string>
+<string name="Lbl_PeopleGoing">אנשים הולכים</string>
+<string name="Lbl_PeopleInterested">אנשים שמתעניינים</string>
+<string name="Lbl_EventDescription">תיאור אירוע</string>
+<string name="Lbl_Goal">יעד</string>
+<string name="Lbl_RecommendForYou">המליץ ​​עבורך</string>
+<string name="Lbl_OfferDescription">תיאור ההצעה</string>
+<string name="Lbl_GroupSeen">קבוצה שנראתה</string>
+<string name="Lbl_ViewPage">הצג דף</string>
+<string name="Lbl_SubTitle">כותרת משנה</string>
+<string name="Lbl_Summary">סיכום</string>
+<string name="Lbl_GroupDetails">פרטי קבוצה</string>
+<string name="Lbl_Rain">גשם</string>
+<string name="Lbl_Wind">רוח</string>
+<string name="Lbl_Humidity">לחות</string>
+<string name="Lbl_mph">מיל לשעה</string>
+<string name="Lbl_NoRepliesToBeDisplayed">אין תשובות שיוצגו</string>
+<string name="Lbl_To">אל</string>
+<string name="Lbl_PaymentFailed">התשלום נכשל</string>
+<string name="Lbl_SuccessfullyAppliedJob">הגשת מועמדות בהצלחה למשרה זו</string>
+<string name="Lbl_YourDetailsWasUpdated">הפרטים שלך עודכנו</string>
+<string name="Lbl_ChooseAnImageFrom">בחר תמונה מתוך</string>
+<string name="Lbl_SendMessage">שלח הודעה...</string>
+<string name="Lbl_Write_your_message">כתוב את ההודעה שלך</string>
+<string name="Lbl_Empty_Games_Desc">אין לך משחקים</string>
+
+<string name="Lbl_UpdateAbout">עדכן אודות</string>
+<string name="Lbl_NoBlockedUsersDesc">לא חסמת אף משתמש</string>
+
+<string name="Lbl_ApplyVerification">הגש בקשה לאימות</string>
+<string name="Lbl_VerificationDescription">גאדג&apos; מאומת הוא סימון המופיע ליד שם חשבון כדי לציין שהחשבון אותנטי ואומת עם הכללים והתקנות של אפליקציה זו.<br /><br />אתה יכול להגיש את בקשת האימות שלך באמצעות</string>
+<string name="Lbl_YourMessage">ההודעה שלך</string>
+<string name="Lbl_YourPassport">הדרכון שלך</string>
+<string name="Lbl_SelectTheme">בחר עיצוב</string>
+<string name="Lbl_AddSocialLinksName">הוסף קישור חברתי כאן</string>
+<string name="Lbl_RecentlyPlayed">הושמע לאחרונה</string>
+
+<string name="Lbl_InvitedPage">דף מוזמן</string>
+<string name="Lbl_Error_AllowedFileUpload">מצטערים, אינך יכול לבחור קובץ כלשהו... עליך לשדרג את הפרופיל שלך.</string>
+<string name="Lbl_GameRecommendations">המלצות למשחקים</string>
+<string name="Lbl_SearchResults">תוצאות חיפוש</string>
+
+<string name="Lbl_NotificationsHaveBeenStopped">ההודעות הופסקו</string>
+<string name="Lbl_NotificationsAreTurnedOn">ההתראות מופעלות</string>
+<string name="Lbl_Album">אלבום</string>
+<string name="Lbl_TakeImageFromCamera">צלם תמונה מהמצלמה</string>
+<string name="Lbl_SelectImageFrom">בחר תמונה מ</string>
+
+<string name="Lbl_ReplenishDesc">תוכל לחדש את היתרה שלך באמצעות כל אחת משיטות התשלום המועדפות.</string>
+<string name="Lbl_FilterResult">סנן תוצאות</string>
+
+<string name="Lbl_AddPhotos">הוסף תמונות</string>
+<string name="Lbl_EnterEventName">הזן את שם האירוע</string>
+<string name="Lbl_EnterStartDate">הזן תאריך התחלה</string>
+<string name="Lbl_EnterStartTime">הזן זמן התחלה</string>
+<string name="Lbl_EnterEndDate">הזן תאריך סיום</string>
+<string name="Lbl_EnterEndTime">הזן את שעת הסיום</string>
+<string name="Lbl_StartTime">זמן התחלה</string>
+<string name="Lbl_EndTime">שעת סיום</string>
+<string name="Lbl_EventPhoto">תמונת אירוע</string>
+<string name="Lbl_EnterDescriptionHere">הזן תיאור כאן</string>
+<string name="Lbl_EditFunding">ערוך מימון</string>
+<string name="Lbl_Announcement_SubText">יש לנו דברים להודיע ​​לך</string>
+<string name="Lbl_ProMember">חבר מקצועי</string>
+<string name="Lbl_Member">חבר</string>
+
+
+	<!-- V4.4 String translate -->
+	<!--===============================================================-->
+<string name="Lbl_Error_AdultImages">תמונה זו מכילה תוכן רגיש שחלק מהאנשים עלולים למצוא בו פוגע או מטריד</string>
+<string name="Lbl_IgnoreAndSend">התעלם ושלח אותו</string>
+
+<string name="Lbl_NoSocialLink">ללא קישור חברתי</string>
+<string name="Lbl_AddLink">הוסף קישור</string>
+<string name="Lbl_EnterTitleHere">הזן כותרת כאן</string>
+<string name="Lbl_EnterAmountHere">הזן סכום כאן</string>
+<string name="Lbl_EnterDescription">הזן תיאור</string>
+
+
+<!-- V4.5 String translate -->
+<!--============================================ ==================-->
+<string name="Lbl_FilterPost">סנן פוסט</string>
+<string name="Lbl_DiscoverPosts">גלה פוסטים</string>
+<string name="Lbl_PostType">סוג פוסט</string>
+<string name="Lbl_Map">מפה</string>
+<string name="Lbl_GrantPermission">הענקת הרשאה</string>
+<string name="Lbl_AllowGrantPermission">אנא אפשר גישה לניהול כל הקבצים</string>
+
+<!-- V4.5 String translate -->
+<!--============================================ ==================-->
+<string name="Lbl_Iam">"אני..."</string>
+<string name="Lbl_WhatAboutYou">מה איתך?</string>
+<string name="Lbl_Star">כוכב</string>
+<string name="Lbl_Ultima">ULTIMA</string>
+<string name="Lbl_Vip">VIP</string>
+
+<!-- V4.6 String translate -->
+<!--============================================ ==================-->
+<string name="Lbl_PlaybackSpeed">מהירות השמעה</string>
+<string name="Lbl_VideoRotation">סיבוב וידאו</string>
+<string name="Lbl_AsInput">כקלט</string>
+<string name="Lbl_ChooseSource">בחר מקור</string>
+<string name="Lbl_ReplaceAudio">החלף אודיו</string>
+<string name="Lbl_ErrorCreatingVideo">שגיאה ביצירת סרטון</string>
+<string name="Lbl_MaxDurationIsReachedPlease">משך הזמן המרבי הגיע בבקשה</string>
+<string name="Lbl_TheSubmittedVideoCut">הסרטון שנשלח ינותק מהסרטון הראשון </string>
+<string name="Lbl_Normal">רגיל</string>
+<string name="Lbl_Faster">מהיר יותר</string>
+<string name="Lbl_Slower">לאט יותר</string>
+
+	<!-- V4.7 String translate -->
+	<!--===============================================================-->
+<string name="Lbl_ReportLive_Title">בחר בעיה</string>
+<string name="Lbl_ReportLive_desc">"אם מישהו נמצא בסכנה מיידית קבל עזרה לפני הדיווח. אל תחכה."</string>
+<string name="Lbl_Nudity">עירום</string>
+<string name="Lbl_Violence">אלימות</string>
+<string name="Lbl_Harassment">הטרדה</string>
+<string name="Lbl_Suicide">התאבדות או פציעה עצמית</string>
+<string name="Lbl_FalseInformation">מידע שקרי</string>
+<string name="Lbl_Span">טווח</string>
+<string name="Lbl_UnauthorizedSales">מכירות לא מורשות</string>
+<string name="Lbl_HateSpeech">דברי שטנה</string>
+<string name="Lbl_Terrorism">טרור</string>
+<string name="Lbl_IntellectualProperty">קניין רוחני</string>
+<string name="Lbl_SomethingElse">משהו אחר</string>
+<string name="Lbl_Other">אחר</string>
+<string name="Lbl_Duration">משך</string>
+
+
+<!--============================================ ==================-->
+<!--Chat Messanger-->
+<!--============================================ ==================-->
+<string name="Lbl_Clear_chat">נקה צ&apos;אט</string>
+<string name="Lbl_Uploading">מעלה</string>
+<string name="Lbl_TextChatNotSupported">הודעה אינה נתמכת בגרסה זו</string>
+<string name="Lbl_Select_what_you_want">בחר מה שאתה רוצה</string>
+<!--Tabbad_Main_Page-->
+<string name="Lbl_Tab_Chats">צאטים</string>
+<string name="Lbl_Tab_GroupChats">קבוצות</string>
+<string name="Lbl_Tab_Calls">שיחות</string>
+<string name="Lbl_is_calling_you">מתקשר אליך</string>
+<string name="Lbl_SendGifFile">Gif</string>
+<string name="Lbl_SendStickerFile">מדבקה</string>
+<string name="Lbl_SendContactnumber">מספר איש קשר</string>
+<string name="Lbl_SendFile">קובץ</string>
+<string name="Lbl_SendVideoFile">סרטון</string>
+<string name="Lbl_SendAudioFile">אודיו</string>
+<string name="Lbl_SendImageFile">תמונה</string>
+<string name="Lbl_Empty_Lastmessages">אין יותר הודעות</string>
+<string name="Lbl_Start_Lastmessages">התחל שיחות חדשות על ידי מעבר אל >> אנשי קשר</string>
+<string name="Lbl_CreateGroup">צור קבוצה</string>
+<string name="Lbl_ErrorLengthGroupName">שם הקבוצה חייב להיות בין 4 ל-15 תווים</string>
+<string name="Lbl_PleaseSelectUser">אנא בחר משתמש אחד לפחות</string>
+<string name="Lbl_AreYouSureExitGroup">האם אתה בטוח שתצא מהקבוצה</string>
+<string name="Lbl_AreYouSureDeleteGroup">האם אתה בטוח שברצונך למחוק את הקבוצה</string>
+<string name="Lbl_Exit">צא</string>
+<string name="Lbl_GroupSuccessfullyLeaved">עזבת בהצלחה את הקבוצה הזו</string>
+<string name="Lbl_SendProductFile">שלח אליך מוצר</string>
+<string name="Lbl_ExitGroup">צא מקבוצה</string>
+<string name="Lbl_GroupName">שם קבוצה</string>
+<string name="Lbl_NewGroup">קבוצה חדשה</string>
+<string name="Lbl_AddParticipants">הוסף משתתפים</string>
+<string name="Lbl_GroupMembers">חברי קבוצה</string>
+	<!--Call-->
+<string name="Lbl_Select_contact">בחר איש קשר</string>
+<string name="Lbl_Web">אינטרנט</string>
+<string name="Lbl_Calling">מתקשר...</string>
+<string name="Lbl_Waiting_to_connect">ממתין להתחבר...</string>
+<string name="Lbl_Faild_to_connect">החיבור נכשל !!</string>
+<string name="Lbl_No_respond_from_the_user">אין תגובה מהמשתמש</string>
+<string name="Lbl_The_user_declinde_your_call">המשתמש דחה את השיחה שלך</string>
+<string name="Lbl_Lost_his_connection">איבד את החיבור שלו</string>
+<string name="Lbl_Lost_Connection">חיבור אבד</string>
+<string name="Lbl_Calls">שיחות</string>
+<string name="Lbl_Empty_calls">אין שיחות</string>
+<string name="Lbl_Start_calls">התחל שיחה חדשה מרשימת החברים שלך, על ידי לחיצה על הלחצן בתחתית המסך.</string>
+<string name="Lbl_Notification_of_Messages">הודעה על הודעות</string>
+<string name="Lbl_Dismiss">סגור</string>
+<string name="Lbl_Answer">תשובה</string>
+<string name="Lbl_Clear_call_log">נקה יומן שיחות</string>
+<string name="Lbl_Answered_call">שיחה נענתה</string>
+<string name="Lbl_Missed_call">שיחה שלא נענתה</string>
+<string name="Lbl_Declined_call">שיחה נדחתה</string>
+<string name="Lbl_Waiting_for_answer">ממתין לתשובה</string>
+<string name="Lbl_Need_Camera">צריך הרשאות מצלמה ומיקרופון כדי להתקשר.</string>
+<string name="Lbl_Room_Disconnected">המשתמש מנותק.</string>
+<string name="Lbl_Connected">מחובר</string>
+<string name="Lbl_User_Lost_Connection">החיבור אבד למשתמש</string>
+<string name="Lbl_Calling_video">סרטון שיחות</string>
+<string name="Lbl_Call">התקשר</string>
+<string name="Lbl_Select_Type_Call">בחר סוג שיחה ?</string>
+<string name="Lbl_Voice_call">שיחה קולית</string>
+<string name="Lbl_Video_call">שיחת וידאו</string>
+<string name="Lbl_Muted_his_video">השתק את השיחה הזו</string>
+<string name="Lbl_View_Profile">הצג פרופיל</string>
+<string name="Lbl_Doyouwanttodeletechatwith">מחק שיחת צ&apos;אט</string>
+<string name="Btn_DeleteMessage">מחק</string>
+<string name="Lbl_Recording">הקלטה...</string>
+<string name="Lbl_Empty_Group">אין קבוצות</string>
+<string name="Lbl_Start_Group">התחל להוסיף קבוצות חדשות</string>
+<string name="Lbl_CopyLinkToProfile">העתק קישור לפרופיל</string>
+<string name="Lbl_Media">מדיה</string>
+<string name="Lbl_NoAnyMedia">ללא מדיה</string>
+<string name="Lbl_Forward">העבר</string>
+<string name="Lbl_ForwardTo">העבר אל...</string>
+<string name="Lbl_MessagesSent">הודעות שנשלחו</string>
+<string name="Lbl_Group">קבוצה</string>
+<string name="Lbl_InvitedToJoinGroup">הוזמנת להצטרף לצ&apos;אט הקבוצתי</string>
+<string name="Lbl_NoAnyGroupRequest">אין הזמנות להצטרף לקבוצת הצ&apos;אט</string>
+<string name="Lbl_GroupRequest">בקשות קבוצתיות</string>
+<string name="Lbl_ViewAllInviteRequest">הצג את כל בקשות ההזמנה</string>
+<string name="Lbl_AreYouSureDeleteMessages">האם אתה בטוח שברצונך למחוק הודעות?</string>
+<string name="Lbl_MessageCall1">"לא יכול לדבר עכשיו, מה קורה?"</string>
+<string name="Lbl_MessageCall2">"אני אתקשר אליך מיד בחזרה"</string>
+<string name="Lbl_MessageCall3">"אני אתקשר אליך מאוחר יותר"</string>
+<string name="Lbl_MessageCall4">"לא יכול לדבר עכשיו. התקשר אלי מאוחר יותר"</string>
+<string name="Lbl_MessageCall5">הודעה מותאמת אישית...</string>
+<string name="Lbl_Tab_PageChats">דפים</string>
+<string name="Lbl_NoMorePage">לא נמצא דף נוסף</string>
+<string name="Lbl_Empty_Page">אין דפים</string>
+<string name="Lbl_CreateNewGroup">צור קבוצה חדשה</string>
+<string name="Lbl_TypeChat">הקלד צ&apos;אט</string>
+
+<string name="Lbl_SendLocationFile">מיקום</string>
+<string name="Lbl_DeleteMessage">מחק הודעה</string>
+<string name="Lbl_NotAnswered_call">לא ענה</string>
+
+<string name="Lbl_StartedMessages">הודעות מועדפות</string>
+<string name="Lbl_Favorite">מועדף</string>
+<string name="Lbl_UnFavorite">בטל מועדף</string>
+<string name="Lbl_Empty_StartedMessages">ללא הודעות מועדפות</string>
+
+<!--עורך-->
+<string name="Lbl_Color">צבע</string>
+<string name="Lbl_Discard">מחק</string>
+<string name="Lbl_Are_you_want_to_exit_without_saving_image">האם ברצונך לצאת מבלי לשמור תמונה?</string>
+<string name="Lbl_Failed_to_save_Image">שמירת התמונה נכשלה</string>
+<string name="Lbl_Tap_To_Type">הקלד משהו</string>
+
+<string name="Lbl_Group_Add_Description">בחר מרשימת אנשי הקשר שלך</string>
+<string name="Lbl_Group_Chat_Description">כרטיסייה כאן למידע על הקבוצה</string>
+	<!--===============================================================-->
+
+<string name="Lbl_SuggestionMessages1">תגיד היי 🖐️</string>
+<string name="Lbl_SuggestionRealMessages1">היי 🖐️</string>
+<string name="Lbl_SuggestionMessages2">מה שלומך?</string>
+<string name="Lbl_SuggestionRealMessages2">מה שלומך?</string>
+<string name="Lbl_SuggestionMessages3">אפשר לדבר?</string>
+<string name="Lbl_SuggestionRealMessages3">היי</string>
+<string name="Lbl_SuggestionMessages4">אני אוהב את התמונה שלך ❤️</string>
+<string name="Lbl_SuggestionRealMessages4">אני אוהב את התמונה שלך ❤️</string>
+<!--============================================ ==================-->
+<string name="Lbl_ChatHeads">ראשי צ&apos;אט</string>
+<string name="Lbl_ChatHead_Title">ראשי צ&apos;אט פעילים</string>
+<string name="Lbl_ChatHead_Text">שיחה</string>
+<string name="Lbl_TurnOnChatHeads">הפעל ראשי צ&apos;אט</string>
+<string name="Lbl_EnableChatHead_SubTitle1">ראשי צ&apos;אט מאפשרים לך לדבר על</string>
+<string name="Lbl_EnableChatHead_SubTitle2">אפילו לבן אתה משתמש באפליקציות אחרות.</string>
+<string name="Lbl_EnableChatHead_SubTitle3">הפעל שרטוט היתר מעל אפליקציות אחרות</string>
+<string name="Lbl_GoToSettings">עבור להגדרות</string>
+<string name="Lbl_NotNow">לא עכשיו</string>
+<string name="Lbl_DeleteTheEntireConversation">למחוק את כל השיחה?</string>
+<string name="Lbl_OnceYouDeleteConversation">לאחר מחיקת העותק של השיחה, לא ניתן לבטל אותה.</string>
+<string name="Lbl_TheConversationHasBeenDeleted">השיחה נמחקה</string>
+<string name="Lbl_Contact">צור קשר</string>
+<string name="Lbl_MessageInfo">פרטי הודעה</string>
+<string name="Lbl_Typping">מקליד...</string>
+<string name="Lbl_Menu_More">תפריט עוד</string>
+<string name="Lbl_GroupInfo">מידע קבוצתי</string>
+<string name="Lbl_Read">קרא</string>
+<string name="Lbl_Delivered">נמסר</string>
+<string name="Lbl_PeopleLikeThis">אנשים אוהבים את זה</string>
+<string name="Lbl_PeopleJoinThis">אנשים מצטרפים לזה</string>
+<string name="Lbl_SayHiTo">תגיד שלום ל</string>
+
+
+<string name="Lbl_Wallpaper">טפט</string>
+<string name="Lbl_DefaultWallpaper">טפט ברירת מחדל</string>
+<string name="Lbl_ColorPalette">לוח הצבעים</string>
+
+<string name="Lbl_Archive">ארכיון</string>
+<string name="Lbl_UnArchive">הסר מהארכיון</string>
+<string name="Lbl_Archived">נמצא בארכיון</string>
+
+<string name="Lbl_PinnedMessage">הודעה מוצמדת</string>
+<string name="Lbl_LastPinnedMessage">הודעה שהוצמדה אחרונה</string>
+<string name="Lbl_Empty_PinnedMessages">ללא הודעה מוצמדת</string>
+<string name="Lbl_UnPin">בטל הצמדה</string>
+<string name="Lbl_Pin">הצמד</string>
+<string name="Lbl_MessagePinned">הודעה מוצמדת</string>
+<string name="Lbl_MessageUnPinned">ההודעה בוטלה</string>
+
+<string name="Lbl_MarkAsReadAll">סמן כנקראו הכל</string>
+<string name="Lbl_MarkAsRead">סמן כנקראו</string>
+<string name="Lbl_MarkAsUnRead">סמן כלא נקרא</string>
+
+<string name="Lbl_MuteNotification">השתק הודעה</string>
+<string name="Lbl_UnMuteNotification">בטל השתקת הודעה</string>
+<string name="Lbl_AddedMute">נוסף לרשימת ההשתקה</string>
+<string name="Lbl_RemovedMute">הוסר מרשימת ההשתקה</string>
+
+<string name="Lbl_AddMembers">הוסף חברים</string>
+
+<string name="Lbl_SlideToCancelAudio">החלק לביטול</string>
+<string name="Lbl_You">אתה</string>
+<string name="Lbl_Sticker">מדבקה</string>
+<string name="Lbl_Product">מוצר</string>
+<string name="Lbl_VoiceMessage">הודעה קולית</string>
+
+<string name="Lbl_AllowYourLocation">אפשר את המיקום שלך</string>
+<string name="Lbl_DescriptionAllowYourLocation">אנחנו רוצים לגשת לתחליב שלך רק כדי לספק חוויה טובה יותר על ידי כך שאנו עוזרים לך למצוא חבר חדש בקרבת מקום.</string>
+
+<string name="Lbl_ErrorCreatingCall">שגיאה בעת יצירת שיחה... אנא נסה שוב מאוחר יותר</string>
+
+<string name="Lbl_call_swipe_up_to_answer">החלק למעלה כדי לענות</string>
+<string name="Lbl_call_swipe_down_to_reject">החלק מטה כדי לדחות</string>
+<string name="Lbl_Empty_ArchivedChats">ללא צ&apos;אטים בארכיון</string>
+
+<string name="new_messages_notify">הודעות חדשות</string>
+<string name="messages_from_notify">הודעות מאת</string>
+<string name="chats_notify">צ&apos;אטים</string>
+
+<string name="Error_connectServer">"לא ניתן להתחבר לשרת"</string>
+<string name="Lbl_ChangeChatTheme">שנה את נושא הצ&apos;אט</string>
+<string name="Lbl_SendingFileTo">שולח קובץ אל</string>
+<string name="Lbl_SendingFile">שולח קובץ...</string>
+<string name="Lbl_RetryAgain">נסה שוב</string>
+<string name="Lbl_Forwarded">הועבר</string>
+<string name="Lbl_Download">הורד</string>
+<string name="Lbl_MediaAutoDownload">הורדה אוטומטית של מדיה</string>
+<string name="Lbl_StorageConnectedMobile">בעת שימוש בנתונים ניידים</string>
+<string name="Lbl_StorageConnectedWiFi">כאשר מחובר לנתוני Wi-Fi</string>
+<string name="Lbl_FingerprintLock">נעילת טביעת אצבע</string>
+<string name="Lbl_Summary_FingerprintLock">כאשר מופעל, תזדקק לטביעת אצבע כדי לפתוח את האפליקציה.</string>
+
+<string name="Lbl_RecommendedTag">תג מומלץ</string>
+<string name="Lbl_StickersManagement">ניהול סטיקרים</string>
+<string name="Lbl_SearchTrendingStickers">חיפוש מדבקות פופולריות</string>
+<string name="Lbl_MyStickers">המדבקות שלי</string>
+<string name="Lbl_AllStickers">כל המדבקות</string>
+<string name="Lbl_VideoUploadWithProcessed">"הסרטון שלך נמצא בעיבוד, אנו נודיע לך כאשר הוא מוכן לצפייה."</string>
+
+<string name="Lbl_ChatNotAllowed">מצטערים, צ&apos;אט עם משתמש זה אינו מותר בשלב זה</string>
+
+<!-- V5.1 String translate -->
+<!--============================================ ==================-->
+<string name="Lbl_News">חדשות</string>
+<string name="Lbl_InvitationToPage">הזמנה לדף</string>
+<string name="Lbl_MyCode">הקוד שלי</string>
+<string name="Lbl_ScanCode">קוד סריקה</string>
+<string name="Lbl_ViewStory">הצג סיפור</string>
+<string name="Lbl_ViewAvatar">צפה בתמונת פרופיל</string>
+<string name="Lbl_SelectAvatar">בחר תמונת פרופיל</string>
+<string name="Lbl_Open">פתח</string>
+<string name="Lbl_LiveVideos">סרטונים בשידור חי</string>
+<string name="Lbl_Advertising">פרסום</string>
+<string name="Lbl_PlacementJobs">עבודות (תמונה בפורמט קובץ)</string>
+<string name="Lbl_PlacementForum">פורום (תמונה בפורמט קובץ)</string>
+<string name="Lbl_PlacementMovies">סרטים (תמונה בפורמט קובץ)</string>
+<string name="Lbl_PlacementOffer">הצעה (תמונה בפורמט קובץ)</string>
+<string name="Lbl_PlacementFunding">מימון (תמונה בפורמט קובץ)</string>
+<string name="Lbl_And">ו</string>
+<string name="Lbl_OtherPeople">אנשים אחרים</string>
+<string name="Lbl_YouAreNowFollowing">אתה עוקב כעת אחרי</string>
+
+
+</resources>

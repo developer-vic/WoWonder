@@ -1,0 +1,113 @@
+{
+  "project_info": {
+    "project_number": "298593751039",
+    "project_id": "posty-cccce",
+    "storage_bucket": "posty-cccce.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:298593751039:android:e2fa6e659f7ec535b961ca",
+        "android_client_info": {
+          "package_name": "com.posty.lite"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "298593751039-j7kvsr7lbmnid1905ocgi0ifl5spnaq5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.posty.lite",
+            "certificate_hash": "6e9a5692d1d1a260939071880fce0edc20c08e3c"
+          }
+        },
+        {
+          "client_id": "298593751039-qelqukegb1kk4338ortgerkpchrp3288.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.posty.lite",
+            "certificate_hash": "19481aebc9708f86b78781d2ab5c44f110f747af"
+          }
+        },
+        {
+          "client_id": "298593751039-asf076lqic89547d7722psn2d5ebmrau.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPUhqm--1Le7fw5rjzTxVo5hB8h_rtjU0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "298593751039-asf076lqic89547d7722psn2d5ebmrau.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:298593751039:android:7263e0294a2735a5b961ca",
+        "android_client_info": {
+          "package_name": "com.posty.pro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "298593751039-asf076lqic89547d7722psn2d5ebmrau.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPUhqm--1Le7fw5rjzTxVo5hB8h_rtjU0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "298593751039-asf076lqic89547d7722psn2d5ebmrau.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:298593751039:android:9a8afdc665c1222eb961ca",
+        "android_client_info": {
+          "package_name": "com.posty.professional"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "298593751039-asf076lqic89547d7722psn2d5ebmrau.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPUhqm--1Le7fw5rjzTxVo5hB8h_rtjU0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "298593751039-asf076lqic89547d7722psn2d5ebmrau.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
